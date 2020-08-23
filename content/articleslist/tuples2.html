@@ -1,0 +1,285 @@
+<main>
+<h1>Tuples</h1><section>
+<h2></h2>
+<p>A tuple is a data type which stores other data types in an ordered index. For example, a tuple can store integers, floats, strings, and even other tuples. You cannot add to or remove data from a tuple once it has been created.</p><hr>
+</section>
+<section>
+<h2>The How</h2>
+<p>Just as a string is denoted by surrounding characters in quotes</p><div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span></code>
+</div></div>
+<p>Tuples are created by surrounding data in round brackets.</p><div class="code">
+<div><code>  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)</code>
+</div></div>
+<p>To access this stored data, the position of the data, or index, is used. This is done by placing the index in square brackets following the name of the tuple.</p><div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  <span class='nativeFunc'>print</span>(my_tuple[<span class='number'>1</span>])
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: 5
+</code>
+</div>
+<p>You may have noticed that even though index 1 was used, the second piece of data was printed. This is because tuples are indexed starting at 0. Here are some more examples to help you understand.</p><div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  <span class='nativeFunc'>print</span>(my_tuple[<span class='number'>0</span>])
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: some text
+</code>
+</div>
+<div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  <span class='nativeFunc'>print</span>(my_tuple[<span class='number'>3</span>])
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: 4.7
+</code>
+</div>
+<p>A negative number can also be used for the index of a tuple. In that case, the last item of a tuple is denoted by -1, and the index works backwards from there.</p><div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  <span class='nativeFunc'>print</span>(my_tuple[<span class='symbol'>-</span><span class='number'>1</span>])
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: 4.7
+</code>
+</div>
+<div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  <span class='nativeFunc'>print</span>(my_tuple[<span class='symbol'>-</span><span class='number'>3</span>])
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: 5
+</code>
+</div>
+<p>Finally, data in a tuple can be accessed in slices in the same way as a string. This is done by indicating the starting item and the ending item, which will not be included. Theses values are separated by a colon and placed within square brackets.</p><div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  <span class='nativeFunc'>print</span>(my_tuple[<span class='number'>1</span>:<span class='number'>3</span>])
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: (5, "message")
+</code>
+</div>
+<p>Tuples can also be iterated over using a for loop in the same way as a range.</p><div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  
+  <span class='keyword'>for</span> I <span class='keyword'>in</span> my_tuple<span class='keyword'>:</span>
+    <span class='nativeFunc'>print</span>(i)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: some text
+		5
+		message
+		4.7
+</code>
+</div>
+<p>Finally, tuples can be used in logic expressions to check if a piece of data is in the tuple, or at a specific index in the tuple.</p><div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  
+  <span class='keyword'>if</span> <span class='string'>"message"</span> <span class='keyword'>in</span> my_tuple<span class='keyword'>:</span>
+  	<span class='nativeFunc'>print</span>(<span class='keyword'>True</span>)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: True
+</code>
+</div>
+<div class="code">
+<div><code>  my_string = <span class='string'>"some text"</span>
+  my_tuple = (my_string<span class='keyword'>,</span> <span class='number'>5</span><span class='keyword'>,</span> <span class='string'>"message"</span><span class='keyword'>,</span> <span class='number'>4</span>.<span class='number'>7</span>)
+  
+  <span class='keyword'>if</span> my_tuple[<span class='number'>0</span>] == <span class='string'>"message"</span><span class='keyword'>:</span>
+  	<span class='nativeFunc'>print</span>(<span class='keyword'>True</span>)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: True
+</code>
+</div>
+<hr>
+</section>
+<section>
+<h2>The Why</h2>
+<p>A tuple offers an easier way to store large amounts of related data, especially when a similar action needs to done to that data. For example, storing sets of x, y, z coordinates in a tuple makes sense, as they are only useful as a set.</p><p>An example of data that is closely related.</p><div class="code">
+<div><code>  position_one = (<span class='number'>3</span><span class='keyword'>,</span> <span class='number'>2</span><span class='keyword'>,</span> <span class='number'>5</span>)
+  position_two = (<span class='number'>2</span><span class='keyword'>,</span> <span class='number'>4</span><span class='keyword'>,</span> <span class='number'>7</span>)
+  
+  Delta_X = position_one[<span class='number'>0</span>] <span class='symbol'>-</span> position_two[<span class='number'>0</span>]
+  <span class='nativeFunc'>print</span>(Delta_X)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: 1
+</code>
+</div>
+<p>An example of data that is iterated over.</p><div class="code">
+<div><code>  code = (<span class='string'>"red"</span><span class='keyword'>,</span> <span class='string'>"green"</span><span class='keyword'>,</span> <span class='string'>"blue"</span><span class='keyword'>,</span> <span class='string'>"yellow"</span>)
+  guess = (<span class='string'>"red"</span><span class='keyword'>,</span> <span class='string'>"black"</span><span class='keyword'>,</span> <span class='string'>"yellow"</span><span class='keyword'>,</span> <span class='string'>"green"</span>)
+  counter = <span class='number'>0</span>
+  red_count = <span class='number'>0</span>
+  white_count = <span class='number'>0</span>
+  
+  <span class='keyword'>for</span> colour <span class='keyword'>in</span> guess<span class='keyword'>:</span>
+  	<span class='keyword'>if</span> colour == code[counter]<span class='keyword'>:</span>
+  		red_count <span class='symbol'>+</span>= <span class='number'>1</span>
+  	<span class='keyword'>elif</span> colour <span class='keyword'>in</span> code<span class='keyword'>:</span>
+  		white_count <span class='symbol'>+</span>= <span class='number'>1</span>
+  	counter <span class='symbol'>+</span>= <span class='number'>1</span>
+  
+  <span class='nativeFunc'>print</span>(<span class='string'>"Red"</span><span class='keyword'>,</span> red_count<span class='keyword'>,</span> <span class='string'>"White"</span><span class='keyword'>,</span> white_count)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: Red 1 White 2
+</code>
+</div>
+<hr>
+</section>
+<section>
+<h2>Practical Uses</h2>
+<p>A common practice when asking the user for input is to give them a few options to choose from. When combined with a while loop tuples allow a program to easily test if the input is one of the available options.</p><div class="code">
+<div><code>  choice = <span class='number'>0</span>
+  options = (<span class='string'>"y"</span><span class='keyword'>,</span> <span class='string'>"n"</span><span class='keyword'>,</span> <span class='string'>"q"</span>)
+      <span class='keyword'>while</span> choice <span class='keyword'>not</span> <span class='keyword'>in</span> options<span class='keyword'>:</span>
+          choice = input(<span class='string'>"Choose an option"</span><span class='keyword'>,</span> options)
+  	<span class='nativeFunc'>print</span>(<span class='string'>"Your choice was"</span><span class='keyword'>,</span> choice)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: Choose an option ("y", "n", "q")
+  USERINPUT: l
+  OUTPUT:	Choose an option ("y", "n", "q")
+  USERINPUT: y
+  OUTPUT:	Your choice was y
+</code>
+</div>
+<p>Another practical use of tuples, as shown above, is to organize related data and iterate over it. In this example, the program finds the first positive number divisible by the numbers (2, 3, 7). By writing the program using a tuple, it is easy to change the requirements, as they are all organized under one variable.</p><div class="code">
+<div><code>  divisors = (<span class='number'>2</span><span class='keyword'>,</span> <span class='number'>3</span><span class='keyword'>,</span> <span class='number'>7</span>)
+  number = <span class='number'>2</span>
+  divisibility = <span class='keyword'>False</span>
+  
+  <span class='keyword'>while</span> divisibility is <span class='keyword'>False</span><span class='keyword'>:</span>
+      divisibility = <span class='keyword'>True</span>
+      <span class='keyword'>for</span> i <span class='keyword'>in</span> divisors<span class='keyword'>:</span>
+          <span class='keyword'>if</span> number <span class='symbol'>%</span> i != <span class='number'>0</span><span class='keyword'>:</span>
+              divisibility = <span class='keyword'>False</span>
+              <span class='keyword'>break</span>
+      number <span class='symbol'>+</span>= <span class='number'>1</span>
+  
+  <span class='nativeFunc'>print</span>(number)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: 43
+</code>
+</div>
+<hr>
+</section>
+<section>
+<h2>Practice Problem</h2>
+<p>Your problem is to take two coordinates and calculate the equation of the line they make.</p><p>HINT: a line can be represented by the equation y - y1 = m * (x-x1) where m represents the slop and y1 and x1 represent the values of a point.</p><div class="code">
+<div><code>  coor_one = (<span class='number'>4</span><span class='keyword'>,</span> <span class='number'>7</span>)
+  coor_two = (<span class='number'>2</span><span class='keyword'>,</span> <span class='number'>12</span>)</code>
+</div></div>
+<p>You must then find which of the following points fall on that line and print them out.</p><div class="code">
+<div><code>  points = ((<span class='number'>2</span><span class='keyword'>,</span> <span class='number'>12</span>)<span class='keyword'>,</span> (<span class='number'>3</span><span class='keyword'>,</span> <span class='number'>13</span>)<span class='keyword'>,</span> (<span class='number'>4</span><span class='keyword'>,</span> <span class='number'>7</span>)<span class='keyword'>,</span> (<span class='number'>6</span><span class='keyword'>,</span> <span class='number'>2</span>)<span class='keyword'>,</span> (<span class='number'>7</span><span class='keyword'>,</span> <span class='symbol'>-</span><span class='number'>3</span>)<span class='keyword'>,</span> (<span class='number'>10</span><span class='keyword'>,</span> <span class='symbol'>-</span><span class='number'>8</span>)<span class='keyword'>,</span> (<span class='number'>16</span><span class='keyword'>,</span> <span class='symbol'>-</span><span class='number'>23</span>.<span class='number'>0</span>))</code>
+</div></div>
+<p>HINT: When you use the index of a tuple to return a value, it will return whatever is at that position, even another tuple. If you’re still stuck, look at nested tuples in Extras.</p><p>Hover below to see a possible solution.</p><div class="code">
+<div class="hiddencode"><code>  coor_one = (<span class='number'>4</span><span class='keyword'>,</span> <span class='number'>7</span>)
+  coor_two = (<span class='number'>2</span><span class='keyword'>,</span> <span class='number'>12</span>)
+  
+  points = ((<span class='number'>2</span><span class='keyword'>,</span> <span class='number'>12</span>)<span class='keyword'>,</span> (<span class='number'>3</span><span class='keyword'>,</span> <span class='number'>13</span>)<span class='keyword'>,</span> (<span class='number'>4</span><span class='keyword'>,</span> <span class='number'>7</span>)<span class='keyword'>,</span> (<span class='number'>6</span><span class='keyword'>,</span> <span class='number'>2</span>)<span class='keyword'>,</span> (<span class='number'>7</span><span class='keyword'>,</span> <span class='symbol'>-</span><span class='number'>3</span>)<span class='keyword'>,</span> (<span class='number'>10</span><span class='keyword'>,</span> <span class='symbol'>-</span><span class='number'>8</span>)<span class='keyword'>,</span> (<span class='number'>16</span><span class='keyword'>,</span> <span class='symbol'>-</span><span class='number'>23</span>.<span class='number'>0</span>))
+  
+  m = (coor_two[<span class='number'>1</span>] <span class='symbol'>-</span> coor_one[<span class='number'>1</span>]) <span class='symbol'>/</span> (coor_two[<span class='number'>0</span>] <span class='symbol'>-</span> coor_one[<span class='number'>0</span>])
+  <span class='nativeFunc'>print</span>(<span class='string'>"y <span class='symbol'>-</span>"</span><span class='keyword'>,</span> coor_one[<span class='number'>1</span>]<span class='keyword'>,</span> <span class='string'>"="</span><span class='keyword'>,</span> m<span class='keyword'>,</span> <span class='string'>"<span class='symbol'>*</span> ( x <span class='symbol'>-</span>"</span><span class='keyword'>,</span> coor_one[<span class='number'>0</span>]<span class='keyword'>,</span> <span class='string'>")"</span>)
+  
+  <span class='keyword'>for</span> point <span class='keyword'>in</span> points<span class='keyword'>:</span>
+      <span class='keyword'>if</span> <span class='symbol'>-</span><span class='number'>2</span>.<span class='number'>5</span><span class='symbol'>*</span>(point[<span class='number'>0</span>]<span class='symbol'>-</span><span class='number'>4</span>) <span class='symbol'>+</span> <span class='number'>7</span> == point[<span class='number'>1</span>]<span class='keyword'>:</span>
+          <span class='nativeFunc'>print</span>(<span class='string'>"The point"</span><span class='keyword'>,</span> point<span class='keyword'>,</span> <span class='string'>"is on the line."</span>)</code>
+</div></div>
+<hr>
+</section>
+<section>
+<h2>Extras</h2>
+<p>Nested Tuples:</p><p>Tuples can store most other data types, including other tuples. This is done exactly as you would expect, with the syntax</p><div class="code">
+<div><code>  nested_tuples = ((<span class='string'>"tuple1"</span><span class='keyword'>,</span> <span class='number'>1</span>)<span class='keyword'>,</span> (<span class='string'>"tuple2"</span><span class='keyword'>,</span> <span class='number'>2</span>))
+  
+  new_tuple = nested_tuples[<span class='number'>0</span>])
+  
+  <span class='nativeFunc'>print</span>(new_tuple)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: ("tuple1", 1)
+</code>
+</div>
+<p>As you can see, this returns the tuple. If we wanted to get the second value of this nested tuple, we would use the syntax</p><div class="code">
+<div><code>  <span class='nativeFunc'>print</span>(new_tuple[<span class='number'>1</span>])
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: 1
+</code>
+</div>
+<p>This two-step process can be combined into a new syntax</p><div class="code">
+<div><code>  <span class='nativeFunc'>print</span>(nested_tuples[<span class='number'>0</span>][<span class='number'>1</span>])
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: 1
+</code>
+</div>
+<p>First, <code> nested_tuples[<span class='number'>0</span>] </code> returns the tuple <code> (<span class='string'>"<span class='nativeFunc'>tuple</span><span class='number'>1</span>"</span><span class='keyword'>,</span> 1) </code>.  Next, we get the value at index 1 of this new tuple, returning 1.</p><h3>Nested Tuple Iteration:</h3><p>You can also iterate over the value in nested tuples, though they must all have the same number of items. This is done by assigning a variable to each index of the nested tuples using the syntax</p><div class="code">
+<div><code>  nested_tuples = ((<span class='string'>"tuple1"</span><span class='keyword'>,</span> <span class='number'>1</span>)<span class='keyword'>,</span> (<span class='string'>"tuple2"</span><span class='keyword'>,</span> <span class='number'>2</span>))
+  
+  <span class='keyword'>for</span> name<span class='keyword'>,</span> number <span class='keyword'>in</span> nested_tuples<span class='keyword'>:</span>
+  	<span class='nativeFunc'>print</span>(name)
+  	<span class='nativeFunc'>print</span>(number)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: tuple1
+	       1
+	       tuple2
+	       2
+</code>
+</div>
+<h3>Enumerate:</h3><p>The <code> <span class='nativeFunc'>enumerate</span>() </code> function is useful when you need to iterate through both the items of a tuple and their position within the tuple. The function adds the index of each item to a tuple with each item, making a tuple of tuples and allowing you to iterate through with a counter variable and a variable assigned to the original items.</p><p>Bonus: the <code> <span class='nativeFunc'>tuple</span>() </code> function returns a tuple of the value passed to it, such as <code> <span class='nativeFunc'>range</span>() </code>, value separated by commas, or the <code> <span class='nativeFunc'>enumerate</span>() </code> function.</p><div class="code">
+<div><code>  my_tuple = (<span class='string'>"a"</span><span class='keyword'>,</span> <span class='string'>"b"</span><span class='keyword'>,</span> <span class='string'>"c"</span>)
+  <span class='nativeFunc'>print</span>(<span class='nativeFunc'>tuple</span>(<span class='nativeFunc'>enumerate</span>(my_tuple)))
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT: ((0, "a"), (1, "b"), (2, "c"))
+</code>
+</div>
+<div class="code">
+<div><code>  <span class='keyword'>for</span> counter<span class='keyword'>,</span> item <span class='keyword'>in</span> <span class='nativeFunc'>enumerate</span>(my_tuple)<span class='keyword'>:</span>
+  	<span class='nativeFunc'>print</span>(counter)
+  	<span class='nativeFunc'>print</span>(item)
+  </code>
+</div></div>
+<div class="output">
+<code>  OUTPUT:	0
+		a
+		1
+		b
+		2
+</code>
+</div>
+</section>
+</main>
