@@ -16,7 +16,7 @@ code {
 }
 .code {
   margin: 40px 0;
-  padding: 20px 0;
+  padding: 20px 0 20px 20px;
   border: 1px dashed #888888;
   border-left: 8px solid firebrick;
 }
@@ -31,7 +31,7 @@ code {
 
 .output{
   margin: 40px 0;
-  padding: 20px 0;
+  padding: 20px 0 20px 20px;
   border: 1px dashed #888888;
   border-left: 8px solid darkolivegreen;
 }

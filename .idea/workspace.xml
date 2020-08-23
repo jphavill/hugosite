@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="testing new spacing for tuple">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articleslist/tuples2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articleslist/tuples2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/articles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,5 +87,9 @@
     </state>
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
+    <state x="-2168" y="-486" width="1096" height="1043" maximized="true" key="dock-window-1" timestamp="1598209917075">
+      <screen x="-2160" y="-478" width="1080" height="1920" />
+    </state>
+    <state x="-2168" y="-486" width="1096" height="1043" maximized="true" key="dock-window-1/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598209917075" />
   </component>
 </project>
