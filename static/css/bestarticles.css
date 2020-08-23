@@ -1,0 +1,26 @@
+.pythonarticles {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". beginner .."
+                        "intermediate ... advanced";
+}
+
+.pythonarticles div {
+  text-align: left;
+}
+
+.pythonarticles h2 {
+  font-size: 100%;
+}
+
+  #beginnerpython {
+    grid-area: beginner;
+  }
+
+  #intermediatepython {
+    grid-area: intermediate;
+  }
+
+  #advancedpython {
+    grid-area: advanced;
+  }

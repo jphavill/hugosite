@@ -1,0 +1,95 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 140%;
+}
+
+main {
+  width: 66vw;
+  max-width: 1000px;
+  margin: 5vh auto 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+a:visited {
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: black;
+}
+
+
+.topnav {
+  width: 80vw;
+  min-width: 1000px;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  grid-template-areas: "name . mainnav"
+  "line line line";
+}
+.topnav a{
+  font-size: 120%;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.topnav a:visited {
+  color: black;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.homepage {
+  grid-area: name;
+}
+
+.mainnav {
+  grid-area: mainnav;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "about articles";
+}
+
+#about {
+  grid-area: about;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#articles {
+  grid-area: articles;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#data {
+  grid-area: data;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav hr {
+  grid-area: line;
+}
+
+.current.current {
+  border-bottom: coral solid 4px;
+}
