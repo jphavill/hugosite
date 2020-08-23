@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="removed comment in title" />
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="removed comment in title">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +31,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -74,10 +79,10 @@
       <screen x="-1080" y="-478" width="1080" height="1920" />
     </state>
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598197645456">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598198338527">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598197645456" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598198338527" />
   </component>
 </project>
