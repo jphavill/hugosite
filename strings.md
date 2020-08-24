@@ -6,12 +6,11 @@
 
 ## The How
 
-A string is dentoed by surrounding characters in either single ' or double " quotes.
+A string is denoted by surrounding characters in either single ' or double " quotes.
 
  ```py
 myString = "This is a string denoted with double quotes"
 myOtherString = 'This is also a string, instead denoted with single quotes'
-
  ```
 ---
 
