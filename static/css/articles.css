@@ -12,13 +12,15 @@ p{
 
 code {
   font-family: "Lucida Console", monospace;
-  white-space: pre-wrap;
+  white-space: pre;
 }
 .code {
   margin: 40px 0;
   padding: 20px 0 20px 20px;
   border: 1px dashed #888888;
   border-left: 8px solid firebrick;
+  overflow: auto;
+  height: 100%;
 }
 
 .hiddencode {
@@ -67,3 +69,4 @@ code {
 .lineComment > span {
   color: inherit;
 }
+

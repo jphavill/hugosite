@@ -3,9 +3,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="testing new spacing for tuple">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articleslist/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articleslist/tuples.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articleslist/tuples2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articleslist/tuples2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/articles.css" afterDir="false" />
     </list>
@@ -44,21 +63,32 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Hugo\Sites\jasonhavill.com\content\articles" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Hugo\Sites\jasonhavill.com\content\articleslist" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\static" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Hugo\Sites\jasonhavill.com\content\articles" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed comment in title" />
@@ -87,9 +117,9 @@
     </state>
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
-    <state x="-2168" y="-486" width="1096" height="1043" maximized="true" key="dock-window-1" timestamp="1598209917075">
-      <screen x="-2160" y="-478" width="1080" height="1920" />
+    <state x="-1047" y="-504" width="1096" height="1043" maximized="true" key="dock-window-1" timestamp="1598210819378">
+      <screen x="-1080" y="-478" width="1080" height="1920" />
     </state>
-    <state x="-2168" y="-486" width="1096" height="1043" maximized="true" key="dock-window-1/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598209917075" />
+    <state x="-1047" y="-504" width="1096" height="1043" maximized="true" key="dock-window-1/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598210819378" />
   </component>
 </project>
