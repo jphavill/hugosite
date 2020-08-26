@@ -38,8 +38,8 @@ a:hover {
   margin: 0 auto 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr auto;
-  grid-template-areas: "name . mainnav"
-  "line line line";
+  grid-template-areas: "name . . mainnav"
+  "line line line line";
 }
 .topnav a{
   font-size: 120%;
@@ -64,26 +64,32 @@ a:hover {
 .mainnav {
   grid-area: mainnav;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "about articles";
+  grid-template-columns: fit-content(40%) fit-content(40%) fit-content(20%);
+  grid-template-areas: "about articles search";
+}
+
+.mainnav > * {
+  padding: 20px 50px;
 }
 
 #about {
   grid-area: about;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #articles {
   grid-area: articles;
-  margin-left: auto;
-  margin-right: auto;
 }
+
+#searchbar {
+  grid-area: search;
+  max-width: 40%;
+  max-height: 10%;
+  margin-top: 10%;
+}
+
 
 #data {
   grid-area: data;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .topnav hr {

@@ -23,10 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="testing new spacing for tuple">
+      <change afterPath="$PROJECT_DIR$/content/articles/_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdownToHugo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/searchbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_to_Hugo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articleslist/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articleslist/tuples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articleslist/tuples2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articleslist/tuples2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/articles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog template.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articleslist/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/if-else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articleslist/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articleslist/tuples2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/headerfooter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings.md" beforeDir="false" afterPath="$PROJECT_DIR$/strings.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -45,12 +58,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gL3HkE7WYaqDE17O5dLEP9o6wN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GO_FMT" value="true" />
@@ -59,21 +75,50 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/articleslist" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Hugo\Sites\jasonhavill.com\content\articles" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Hugo\Sites\jasonhavill.com\content\articleslist" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\static" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Hugo\Sites\jasonhavill.com" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\content\articles" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="markdownToHugo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jasonhavill.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/markdownToHugo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.markdownToHugo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,8 +134,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="removed comment in title" />
     <MESSAGE value="testing new spacing for tuple" />
     <option name="LAST_COMMIT_MESSAGE" value="testing new spacing for tuple" />
@@ -108,13 +155,31 @@
       <screen x="-1080" y="-478" width="1080" height="1920" />
     </state>
     <state x="-702" y="186" key="Github.UntrackedFilesDialog/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598195945793" />
-    <state x="-1039" y="126" key="SettingsEditor" timestamp="1598196177512">
-      <screen x="-1080" y="-478" width="1080" height="1920" />
-    </state>
-    <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598201656547">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1598318130933">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598318130933" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1598318130932">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598318130932" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1598318130932">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598318130932" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1598318130932">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598318130932" />
+    <state x="97" y="440" key="SettingsEditor" timestamp="1598313040796">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="97" y="440" key="SettingsEditor/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598313040796" />
+    <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598227600740">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598227600740" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
     <state x="-1047" y="-504" width="1096" height="1043" maximized="true" key="dock-window-1" timestamp="1598210819378">

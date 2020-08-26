@@ -21,7 +21,8 @@
         <a href="/" id="homepage"><span>JASON HAVILL</span></a>
         <div class="mainnav">
             <a href="/about" id="about"><span {{ if eq .Title "About" }}class='current'{{ end }}>ABOUT</span></a>
-            <a href="/articles" id="articles"><span {{ if or (eq .Title "articles") (eq .Section "articleslist" ) }}class='current'{{ end }}>ARTICLES</span></a>
+            <a href="/articles" id="articles"><span {{ if or (eq .Title "articles") (eq .Section "articles" ) }}class='current'{{ end }}>ARTICLES</span></a>
+            <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
         </div>
     </nav>
 </header>
@@ -38,3 +39,5 @@
 {{ end }}
 </body>
 </html>
+
+<script src="/js/searchbar.js"></script>
