@@ -3,18 +3,23 @@
 {{ end }}
 {{ define "main" }}
     <main>
-        <article>
-            <header>
-                <h1>{{.Title}}</h1>
-            </header>
-            {{.Content}}
-        </article>
-        <ul>
-            {{ range .Pages }}
-                <li>
-                    <a href="{{.Permalink}}">{{.Title}}</a>
-                </li>
-            {{ end }}
-        </ul>
+        <header>
+            <h1>{{.Title}}</h1>
+        </header>
+        {{.Content}}
+        <section>
+            <div id="contentList">
+                <h2 id="listtitle">All {{.Title}}</h2>
+                <ul id="articlelist">
+                    {{ range .Pages }}
+                        <li>
+                            <a href="{{.Permalink}}">{{.Title}}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+
+        </section>
+
     </main>
 {{ end }}
