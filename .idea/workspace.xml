@@ -22,22 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="testing new spacing for tuple">
-      <change afterPath="$PROJECT_DIR$/content/articles/_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markdownToHugo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/searchbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_to_Hugo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" afterDir="false" />
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="adding string and index for articles.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog template.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog_template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articleslist/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/if-else.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articleslist/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articleslist/tuples2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/headerfooter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings.md" beforeDir="false" afterPath="$PROJECT_DIR$/strings.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +127,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="removed comment in title" />
     <MESSAGE value="testing new spacing for tuple" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing new spacing for tuple" />
+    <MESSAGE value="adding string and index for articles.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding string and index for articles.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-786" y="283" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598196069468">
@@ -176,10 +164,11 @@
     </state>
     <state x="97" y="440" key="SettingsEditor/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598313040796" />
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598227600740">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598485017208">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598227600740" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598485017208" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
     <state x="-1047" y="-504" width="1096" height="1043" maximized="true" key="dock-window-1" timestamp="1598210819378">
