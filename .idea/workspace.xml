@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="adding s trings">
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="messing around with all articles list centering">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bestarticles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bestarticles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GolandProjects/hugosite" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -131,13 +129,18 @@
     <MESSAGE value="adding string and index for articles.html" />
     <MESSAGE value="removing extra article.html" />
     <MESSAGE value="adding s trings" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding s trings" />
+    <MESSAGE value="messing around with all articles list centering" />
+    <option name="LAST_COMMIT_MESSAGE" value="messing around with all articles list centering" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-786" y="283" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598196069468">
       <screen x="-1080" y="-478" width="1080" height="1920" />
     </state>
     <state x="-786" y="283" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196069468" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1598795554679">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="454" key="FileChooserDialogImpl/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598795554679" />
     <state x="-676" y="379" key="Github.ShareDialog" timestamp="1598195938824">
       <screen x="-1080" y="-478" width="1080" height="1920" />
     </state>
@@ -167,16 +170,20 @@
     </state>
     <state x="97" y="440" key="SettingsEditor/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598313040796" />
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598488798222">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598490361192">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598227600740" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598488798222" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598490361192" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
     <state x="-1047" y="-504" width="1096" height="1043" maximized="true" key="dock-window-1" timestamp="1598210819378">
       <screen x="-1080" y="-478" width="1080" height="1920" />
     </state>
     <state x="-1047" y="-504" width="1096" height="1043" maximized="true" key="dock-window-1/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598210819378" />
+    <state x="943" y="315" key="search.everywhere.popup" timestamp="1598795430766">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" key="search.everywhere.popup/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598795430766" />
   </component>
 </project>
