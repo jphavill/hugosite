@@ -11,7 +11,7 @@ markdown_file = sys.argv[1]
 file_name = markdown_file.split('.')[0]
 
 new_file = convert(markdown_file)
-new_file_path = f'content/articleslist/{file_name}.html'
+new_file_path = f'content/articles/{file_name}.html'
 
 if path.exists(new_file_path):
     with open(new_file_path, 'r') as f:
@@ -33,7 +33,7 @@ if path.exists(new_file_path):
     remove(new_file_path)
 
 
-system(f'hugo new articleslist/{file_name}.html')
+system(f'hugo new articles/{file_name}.html')
 
 # timeout = 10
 # trys = 0

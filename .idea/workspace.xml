@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="messing around with all articles list centering">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/articleslist/print.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +66,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\content\articles" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Hugo\Sites\jasonhavill.com\content\articleslist" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Hugo\Sites\jasonhavill.com" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\content\articles" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -165,15 +167,15 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.right/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598318130932" />
-    <state x="97" y="440" key="SettingsEditor" timestamp="1598313040796">
+    <state x="97" y="440" key="SettingsEditor" timestamp="1598796028064">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="97" y="440" key="SettingsEditor/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598313040796" />
+    <state x="97" y="440" key="SettingsEditor/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598796028064" />
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598490361192">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598796010904">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598227600740" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598796010904" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598490361192" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
