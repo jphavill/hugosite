@@ -1,0 +1,66 @@
+---
+title: "Print"
+date: 2020-08-30T10:59:59-03:00
+draft: true
+---
+
+<main>
+<h1>Print</h1><section>
+<h2></h2>
+<p>#coding</p><p>#blog/python</p></section>
+<section>
+<h2>To Be Included:</h2>
+<p>	- main</p><p>		- can take multiple arguments by default separates by space</p><p>			- </p><p>		- can take many types of inputs</p><p>		- defaults to printing a newline</p><p>		- each print function moves the cursor to the next line</p><p>	- extras</p><p>		- overwrite newline at end of statement</p><p>		- overwrite joiner </p><p>		- talk about <code> <span cl<span class='keyword'>as</span>s='symbol'>/</span>n </code></p></section>
+<section>
+<h2>Output</h2>
+<p>The easiest way for a program to display output to the user is to print out text to the screen. The print function accomplished this by printing whatever is passed to it to the console.</p></section>
+<section>
+<h2>The How</h2>
+<p>A print function is called just like any other function, with the name of the function followed by opening and closing parenthesis <code> pr<span class='keyword'>in</span>t() </code>. To pass an argument to the function, it is simply placed within the parenthesis.</p><div class="code">
+<div><code><span class='nativeFunc'>print</span>(<span class='string'>"Hello World"</span>)
+</code>
+</div></div>
+<div class="output">
+<code>OUTPUT: Hello World
+</code>
+</div>
+<p>This passed argument can be of almost any type, and can be stored in a variable. Multiple arguments can even be passed into one print function.</p><div class="code">
+<div><code><span class='nativeFunc'>print</span>(<span class='number'>7</span><span class='keyword'>,</span> <span class='string'>"a"</span>)
+var = [<span class='string'>"entry <span class='keyword'>in</span> a <span class='nativeFunc'>list</span>"</span><span class='keyword'>,</span> <span class='string'>"entry two"</span>]
+<span class='nativeFunc'>print</span>(var)
+</code>
+</div></div>
+<div class="output">
+<code>OUTPUT: 7, a
+OUTPUT: ["entry in a list", "entry two"]
+</code>
+</div>
+<p>If no argument is passed, the print function will default to creating a newline. This means that it moves the output to the next line.</p><div class="code">
+<div><code><span class='nativeFunc'>print</span>(<span class='string'>"part one"</span>)
+<span class='nativeFunc'>print</span>()
+<span class='nativeFunc'>print</span>(<span class='string'>"part two"</span>)
+</code>
+</div></div>
+<div class="output">
+<code>OUTPUT: part one
+OUTPUT:
+OUTPUT: part two
+</code>
+</div>
+</section>
+<section>
+<h2>Communication and Debugging</h2>
+<p>Displaying output to the screen is useful for two main reasons, firstly as the simplest way for a program to communicate with a user, and secondly as a method of debugging errors.</p><p>An example of using the print statement to communicate with the user</p><div class="code">
+<div><code>x = <span class='number'>5</span>
+y = <span class='number'>4</span>
+answer = x <span class='symbol'>+</span> y
+<span class='nativeFunc'>print</span>(‘The answer is’<span class='keyword'>,</span> answer)
+</code>
+</div></div>
+<div class="output">
+<code>OUTPUT:
+		The answer is 9Blo
+</code>
+</div>
+<p>Creating a graphical user interface, or gui, is not needed for many applications, and would grow a relatively small project in to a much larger one if it was included. For this reason command line based applications are not only accepted, but encouraged unless a gui is truly needed. </p></section>
+</main>
