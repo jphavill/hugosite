@@ -151,9 +151,9 @@ def create_paragraph(line):
     if len(lines) > 1:
         for index, part in enumerate(lines):
             part = re.sub(r"(<code>.*?)(\+|-|/|%|\*|&gt;|&lt;)", r"\1<span class='symbol'>\2</span>", part)
-            part = re.sub(r"(<code>.*?)(if|else|elif|for|in|while|and|or|not|def|return|True|False|as|continue|break|==|!|>=|<=|&lt;|&gt;)",
-                         r"\1<span class='keyword'>\2</span>", part)
-            part = re.sub(r"(<code>.*?)(\b(print|int|str|chr|list|tuple|set|dict|quit|enumerate|range))", r"\1<span class='nativeFunc'>\2</span>", part)
+            part = re.sub(r"(<code>.*?)(\b(print|int|str|chr|list|tuple|set|dict|quit|enumerate|range)\b)", r"\1<span class='nativeFunc'>\2</span>", part)
+            part = re.sub(r"(<code>.*?)(\b(if|else|elif|for|in|while|and|or|not|def|return|True|False|as|continue|break|==|!|>=|<=|&lt;|&gt;)\b)",
+                          r"\1<span class='keyword'>\2</span>", part)
             part = re.sub(r"(<code>.*?)([^a-zA-Z])([0-9]+)", r"\1\2<span class='number'>\3</span>", part)
             part = re.sub(r'(<code>.*?)(".*?")', r"\1<span class='string'>\2</span>", part)
             part = re.sub(r"(<code>.*?)(,)", r"\1<span class='keyword'>\2</span>", part)

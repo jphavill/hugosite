@@ -1,18 +1,4 @@
 # Print
-#coding
-#blog/python
-
-## To Be Included:
-	- main
-		- can take multiple arguments by default separates by space
-			- 
-		- can take many types of inputs
-		- defaults to printing a newline
-		- each print function moves the cursor to the next line
-	- extras
-		- overwrite newline at end of statement
-		- overwrite joiner 
-		- talk about `/n`
 ## Output
 The easiest way for a program to display output to the user is to print out text to the screen. The print function accomplished this by printing whatever is passed to it to the console.
 
