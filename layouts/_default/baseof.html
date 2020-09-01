@@ -22,7 +22,12 @@
         <div class="mainnav">
             <a href="/about" id="about"><span {{ if eq .Title "About" }}class='current'{{ end }}>ABOUT</span></a>
             <a href="/articles" id="articles"><span {{ if or (eq .Title "articles") (eq .Section "articles" ) }}class='current'{{ end }}>ARTICLES</span></a>
-            <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+            <div id="searchArea">
+                <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+                <div id="searchResults"></div>
+            </div>
+
+
         </div>
     </nav>
 </header>

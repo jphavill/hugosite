@@ -80,12 +80,22 @@ a:hover {
   grid-area: articles;
 }
 
-#searchbar {
+#searchArea {
+  position: relative;
   grid-area: search;
-  max-width: 40%;
-  max-height: 10%;
+}
+
+#searchbar {
+  max-width: 50%;
+  max-height: 50%;
   margin-top: 10%;
 }
+
+#searchResults {
+  position: absolute;
+  left: 10px;
+}
+
 
 
 #data {

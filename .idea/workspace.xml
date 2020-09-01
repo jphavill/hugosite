@@ -22,47 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="making print not a draft">
-      <change afterPath="$PROJECT_DIR$/content/articles/math.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draft_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fstringstest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate_search_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/articles/if-else/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/articles/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/articles/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/articles/math.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/articles/print/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/articles/strings/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/articles/tuples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/articles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bestarticles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/headerfooter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/homepage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/searchbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/updateContent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" afterDir="false" />
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="making stuff not drafts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/if-else.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/print.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/print.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/strings.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/strings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdownToHugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdownToHugo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/print.md" beforeDir="false" afterPath="$PROJECT_DIR$/print.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bestarticles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bestarticles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/headerfooter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/searchbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_to_Hugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_to_Hugo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings.md" beforeDir="false" afterPath="$PROJECT_DIR$/strings.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +245,9 @@
     <MESSAGE value="adding print content" />
     <MESSAGE value="fixing highlighting of keywords to not occur within larger words" />
     <MESSAGE value="making print not a draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="making print not a draft" />
+    <MESSAGE value="overhauled markdown convertor and the articles page, also added about me text" />
+    <MESSAGE value="making stuff not drafts" />
+    <option name="LAST_COMMIT_MESSAGE" value="making stuff not drafts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="249" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598964790079">
@@ -307,32 +275,32 @@
       <screen x="-1080" y="-478" width="1080" height="1920" />
     </state>
     <state x="-702" y="186" key="Github.UntrackedFilesDialog/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598195945793" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1598999412885">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1598999862061">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598982912803" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999412885" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999862061" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598964592213" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598965333153" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1598999412885">
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1598999862061">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.center/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598982912803" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999412885" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999862061" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598964592213" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598965333153" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1598999412885">
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1598999862061">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.left/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598982912803" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999412885" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999862061" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598964592212" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598965333152" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1598999412885">
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1598999862061">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="401" key="GridCell.Tab.0.right/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598982912803" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999412885" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999862061" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598964592213" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598965333153" />
     <state x="98" y="437" key="SettingsEditor" timestamp="1598964727142">
@@ -342,10 +310,11 @@
     <state x="64" y="328" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1598884954152" />
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
     <state x="98" y="437" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598964727142" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598834586324">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1598999968116">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598834586324" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598999968116" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598490361192" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
