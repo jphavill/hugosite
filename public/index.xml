@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason Havill</title>
+    <link>http://jasonhavill.com/</link>
+    <description>Recent content on Jason Havill</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 10:39:57 -0300</lastBuildDate>
+    
+	<atom:link href="http://jasonhavill.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Print</title>
+      <link>http://jasonhavill.com/articles/print/</link>
+      <pubDate>Sun, 30 Aug 2020 21:47:42 -0300</pubDate>
+      
+      <guid>http://jasonhavill.com/articles/print/</guid>
+      <description>PrintOutputThe easiest way for a program to display output to the user is to print out text to the screen. The print function accomplished this by printing whatever is passed to it to the console.
+The HowA print function is called just like any other function, with the name of the function followed by opening and closing parenthesis  print() .</description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://jasonhavill.com/articles/strings/</link>
+      <pubDate>Mon, 24 Aug 2020 22:14:03 -0300</pubDate>
+      
+      <guid>http://jasonhavill.com/articles/strings/</guid>
+      <description>StringsA string is a data type that stores a series (or &#34;string&#34;) of characters. These characters could make up a word, a sentence, or even entire paragraphs. The HowA string is denoted by surrounding characters in either single  &#39;&#39;  or double  &#34;&#34;  quotes.
+myString = &#34;This is a string denoted with double quotes&#34;myOtherString = &#39;This is also a string, instead denoted with single quotes&#39;The variable name can then be used in place of the string.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://jasonhavill.com/about/</link>
+      <pubDate>Sun, 23 Aug 2020 11:33:52 -0300</pubDate>
+      
+      <guid>http://jasonhavill.com/about/</guid>
+      <description>Who I am </description>
+    </item>
+    
+    <item>
+      <title>if-else</title>
+      <link>http://jasonhavill.com/articles/if-else/</link>
+      <pubDate>Wed, 19 Aug 2020 20:34:33 -0300</pubDate>
+      
+      <guid>http://jasonhavill.com/articles/if-else/</guid>
+      <description>If ElseAn if else statement is what allows a program to respond in real time to outside input. With these statements, the program can change what code is executed based on variables within the program.
+The WhyWithout if else statements every program would run identically every time, severely restricting its usefulness. It is these statements which allow a calculator to deal with dividing by zero, a website to validate login credentials, and a game to discover when a shot has landed.</description>
+    </item>
+    
+    <item>
+      <title>tuples</title>
+      <link>http://jasonhavill.com/articles/tuples/</link>
+      <pubDate>Wed, 19 Aug 2020 20:34:33 -0300</pubDate>
+      
+      <guid>http://jasonhavill.com/articles/tuples/</guid>
+      <description>TuplesA tuple is a data type which stores other data types in an ordered index. For example, a tuple can store integers, floats, strings, and even other tuples. You cannot add to or remove data from a tuple once it has been created.
+The HowJust as a string is denoted by surrounding characters in quotes
+my_string = &#34;some text&#34;Tuples are created by surrounding data in round brackets.</description>
+    </item>
+    
+  </channel>
+</rss>

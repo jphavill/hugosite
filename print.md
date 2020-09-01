@@ -40,7 +40,7 @@ answer = x + y
 print(‘The answer is’, answer)
 
 OUTPUT:
-	The answer is 9Blo
+	The answer is 9
 ```
 
 Creating a graphical user interface, or gui, is not needed for many applications, and would grow a relatively small project in to a much larger one if it was included. For this reason command line based applications are not only accepted, but encouraged unless a gui is truly needed. 

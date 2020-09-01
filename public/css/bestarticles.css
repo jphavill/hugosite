@@ -1,0 +1,50 @@
+.pythonarticles {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". beginner ."
+                        "intermediate . advanced";
+}
+
+.pythonarticles div {
+  text-align: center;
+}
+
+.pythonarticles h2 {
+  font-size: 100%;
+}
+
+#beginnerpython {
+  grid-area: beginner;
+}
+
+#intermediatepython {
+  grid-area: intermediate;
+}
+
+#advancedpython {
+  grid-area: advanced;
+}
+
+#contentList {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". listtitle ."
+                        ". articlelist .";
+  text-align: center;
+}
+
+#listtitle {
+  text-align: center;
+  grid-area: listtitle;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+#articlelist {
+  grid-area: articlelist;
+  text-align: center;
+  padding-right: 15px;
+  margin-top: 0;
+}
+
+

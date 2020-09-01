@@ -14,56 +14,19 @@ import re
 #global variables
 hidden_solution = False
 
-# def create_html(sections):
-#     html = create_head(sections[0].split('\n')[0])
-#     html += create_body(sections)
-#     html += '</html>\n'
-#     return html
-
-# def create_head(line):
-#     title = line.strip('\n').strip().strip('#').strip()
-#     head = f'<!DOCTYPE html>\n' \
-#                      f'<html lang="en">\n' \
-#                      f'<head>\n' \
-#                      f'<meta charset="UTF-8">\n' \
-#                      f'<title>{title}</title>\n'
-#     for css in css_links:
-#         head += f'<link rel="stylesheet" href="css/{css}.css">\n'
-#     head += '</head>\n'
-#     return head
-
-# def create_body(sections):
-#     body = '<body>\n'
-#     body += create_header()
-#     body += create_main(sections)
-#     body += create_footer()
-#     body += '</body>\n'
-#     return body
-
-# def create_header():
-#     header = '<header>\n' \
-#              '<nav class="topnav">\n' \
-#              '<a href="index.html" id="homepage">JASON HAVILL</a>\n' \
-#              '<div class="mainnav">\n'
-#     for link in nav_links:
-#         header += f'<a href="{link}.html" id="{link}">{link.upper()}</a>\n'
-#     header += '</div>\n' \
-#              '<hr>\n' \
-#              '</nav>\n' \
-#              '</header>\n'
-#     return header
-
-
+# return title instead of putting it directly in file, then shove it into hugo frontmatter
 def create_main(sections):
     firstline = sections[0].split('\n')[0]
     title = firstline.strip('\n').strip().strip('#').strip()
     main = f'<main>\n' \
-           f'<h1>{title}</h1>'
+           # f'<h1>{title}</h1>'
+    # main = f'<main>\n' \
+    #        f'<h1>{title}</h1>'
     sections[0] = sections[0][len(firstline):]
     for section in sections:
         main += create_section(section)
     main += '</main>\n'
-    return main
+    return main, title
 
 def create_section(section):
     output = "<section>\n"
@@ -145,24 +108,32 @@ def create_paragraph(line):
     if re.search(r"hover below to see a possible solution", line, re.IGNORECASE):
         hidden_solution = True
 
-    line = re.sub(r'`(.*?)`', r"<code> \1 </code>", line)
+    line = re.sub(r'`(.*?)`', r"<code>\1</code>", line)
     lines = line.split('</code>')
 
     if len(lines) > 1:
         for index, part in enumerate(lines):
-            part = re.sub(r"(<code>.*?)(\+|-|/|%|\*|&gt;|&lt;)", r"\1<span class='symbol'>\2</span>", part)
-            part = re.sub(r"(<code>.*?)(\b(print|int|str|chr|list|tuple|set|dict|quit|enumerate|range)\b)", r"\1<span class='nativeFunc'>\2</span>", part)
-            part = re.sub(r"(<code>.*?)(\b(if|else|elif|for|in|while|and|or|not|def|return|True|False|as|continue|break|==|!|>=|<=|&lt;|&gt;)\b)",
-                          r"\1<span class='keyword'>\2</span>", part)
-            part = re.sub(r"(<code>.*?)([^a-zA-Z])([0-9]+)", r"\1\2<span class='number'>\3</span>", part)
-            part = re.sub(r'(<code>.*?)(".*?")', r"\1<span class='string'>\2</span>", part)
-            part = re.sub(r"(<code>.*?)(,)", r"\1<span class='keyword'>\2</span>", part)
-            part = re.sub(r"(<code>.*?)(:)", r"\1<span class='keyword'>\2</span>", part)
-            lines[index] = part
+            parts = part.split('<code>')
+            if len(parts)>1:
+                non_code, code = parts
+            elif '<code>' in part:
+                code = parts[0]
+                non_code = ''
+            else:
+                non_code = parts[0]
+                code = ''
+            # code = re.sub(r"(<code>.*?)(\+|-|/|%|\*|&gt;|&lt;)", r"\1<span class='symbol'>\2</span>", code)
+            # code = re.sub(r"(<code>.*?)(\b(print|int|str|chr|list|tuple|set|dict|quit|enumerate|range)\b)", r"\1<span class='nativeFunc'>\2</span>", code)
+            # code = re.sub(r"(<code>.*?)(\b(if|else|elif|for|in|while|and|or|not|def|return|True|False|as|continue|break|==|!|>=|<=|&lt;|&gt;)\b)",
+            #               r"\1<span class='keyword'>\2</span>", code)
+            # code = re.sub(r"(<code>.*?)(\b([0-9]+)\b)", r"\1<span class='number'>\2</span>", code)
+            # code = re.sub(r'(<code>.*?)(".*?")', r"\1<span class='string'>\2</span>", code)
+            # code = re.sub(r"(<code>.*?)(,)", r"\1<span class='keyword'>\2</span>", code)
+            # code = re.sub(r"(<code>.*?)(:)", r"\1<span class='keyword'>\2</span>", code)
+            code = add_colour(code)
+            lines[index] = non_code + ('<code>' if '<code>' in part else '') + code
         line = '</code>'.join(lines)
     return f'<p>{line}</p>'
-
-# todo right now stops on first '<' need to make it stop on first full </code>
 
 
 def add_colour(line):
@@ -173,7 +144,7 @@ def add_colour(line):
     line = re.sub(r"(,)",  r"<span class='keyword'>\1</span>", line)
     line = re.sub(r"(:$)", r"<span class='keyword'>\1</span>", line)
     line = re.sub(r"(\b(print|int|str|chr|list|tuple|set|dict|quit|enumerate|range)\b)", r"<span class='nativeFunc'>\1</span>", line)
-    line = re.sub(r"([^a-zA-Z])([0-9]+)", r"\1<span class='number'>\2</span>", line)
+    line = re.sub(r"([0-9]+)", r"<span class='number'>\1</span>", line)
     line = re.sub(r'(".*?")', r"<span class='string'>\1</span>", line)
     line = re.sub(r'(#.*$)', r"<span class='lineComment'>\1</span>", line)
     return line
@@ -201,8 +172,8 @@ def create_span(word, classtype):
 def convert(file):
     with open(f"{file}", "r") as f:
         sections = f.read().split("\n## ")
-        output = create_main(sections)
-        return output
+        output, title = create_main(sections)
+        return output, title
 
 def output(file):
     file_name = file.split('.')[0]

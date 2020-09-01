@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://jasonhavill.com/articles/print/</loc>
+    <lastmod>2020-08-30T21:47:42-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasonhavill.com/articles/</loc>
+    <lastmod>2020-08-25T17:20:55-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasonhavill.com/articles/strings/</loc>
+    <lastmod>2020-08-24T22:14:03-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasonhavill.com/about/</loc>
+    <lastmod>2020-08-23T11:33:52-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasonhavill.com/</loc>
+    <lastmod>2020-08-23T10:39:57-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasonhavill.com/articles/if-else/</loc>
+    <lastmod>2020-08-19T20:34:33-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jasonhavill.com/articles/tuples/</loc>
+    <lastmod>2020-08-19T20:34:33-03:00</lastmod>
+  </url>
+  
+</urlset>

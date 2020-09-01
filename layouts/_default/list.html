@@ -13,7 +13,10 @@
                 <ul id="articlelist">
                     {{ range .Pages }}
                         <li>
-                            <a href="{{.Permalink}}">{{.Title}}</a>
+                            <div>
+                                <h3 class="summaryTitle"><a href="{{.Permalink}}">{{.Title}}</a></h3>
+                                <p class="summary">{{.Summary}} <a href="{{ .RelPermalink }}">Read More…</a></p>
+                            </div>
                         </li>
                     {{ end }}
                 </ul>

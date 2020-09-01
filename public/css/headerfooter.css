@@ -1,0 +1,101 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 140%;
+}
+
+main {
+  width: 66vw;
+  max-width: 1000px;
+  margin: 5vh auto 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+a:visited {
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: black;
+}
+
+
+.topnav {
+  width: 80vw;
+  min-width: 1000px;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  grid-template-areas: "name . . mainnav"
+  "line line line line";
+}
+.topnav a{
+  font-size: 120%;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.topnav a:visited {
+  color: black;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.homepage {
+  grid-area: name;
+}
+
+.mainnav {
+  grid-area: mainnav;
+  display: grid;
+  grid-template-columns: fit-content(40%) fit-content(40%) fit-content(20%);
+  grid-template-areas: "about articles search";
+}
+
+.mainnav > * {
+  padding: 20px 50px;
+}
+
+#about {
+  grid-area: about;
+}
+
+#articles {
+  grid-area: articles;
+}
+
+#searchbar {
+  grid-area: search;
+  max-width: 40%;
+  max-height: 10%;
+  margin-top: 10%;
+}
+
+
+#data {
+  grid-area: data;
+}
+
+.topnav hr {
+  grid-area: line;
+}
+
+.current.current {
+  border-bottom: coral solid 4px;
+}
