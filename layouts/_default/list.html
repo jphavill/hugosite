@@ -11,7 +11,7 @@
             <div id="contentList">
                 <h2 id="listtitle">All {{.Title}}</h2>
                 <ul id="articlelist">
-                    {{ range .Pages }}
+                    {{ range .Pages.ByPublishDate }}
                         <li>
                             <div>
                                 <h3 class="summaryTitle"><a href="{{.Permalink}}">{{.Title}}</a></h3>
