@@ -22,7 +22,7 @@ number_B = 4
 if number_A > number_B:
   print("number A is bigger than number B")
 
-OUTPUT: "number A is bigger than number B"
+OUTPUT: number A is bigger than number B
 ```
  In the examples above the code runs just fine without the final part of an if else statements, the else. Here the program will simply skip over the indented code if the conditional is false, and continue on. However, in many cases it is useful to have a dedicated section of code to run if the condition is false, and this is done with the `else`  keyword. It is used in the same way as the `if` keyword,  with a  colon following it and then its own indented block of code.
 ```py
@@ -33,7 +33,7 @@ if number_A > number_B:
 else:
   print("number B is bigger than number A")
 
-OUTPUT: "number B is bigger than number A"
+OUTPUT: number B is bigger than number A
 ```
 
 A computer treats an if else statement as a branch in the rails of your program, with the conditional acting as the switch. After either the indented code under either the  `if`  keyword or the  `else`  keyword has been run, the code continues on in its normal linear fashion.
@@ -49,9 +49,9 @@ else:
 
 print("program continuing to run")
 
-OUTPUT: "program begins"
-"number B is bigger than number A"
-"program continuing to run"
+OUTPUT: program begins
+number B is bigger than number A
+program continuing to run
 ```
 ---
 
