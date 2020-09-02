@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="search result limited to 5">
-      <change beforePath="$PROJECT_DIR$/content/articles/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/math.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/print.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/print.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/strings.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/strings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_to_Hugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_to_Hugo.py" afterDir="false" />
-    </list>
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="testing math page html content" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -248,7 +243,9 @@
     <MESSAGE value="added functional search bar with hardcoded database" />
     <MESSAGE value="formatting search result" />
     <MESSAGE value="search result limited to 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="search result limited to 5" />
+    <MESSAGE value="testing math page" />
+    <MESSAGE value="testing math page html content" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing math page html content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="249" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598964790079">
@@ -311,11 +308,11 @@
     <state x="64" y="328" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1598884954152" />
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
     <state x="98" y="437" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598964727142" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1599011678307">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1599012311287">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598834586324" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599011678307" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599012311287" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598490361192" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
