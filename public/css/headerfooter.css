@@ -142,3 +142,18 @@ a:hover {
 .jsHidden {
   visibility: hidden;
 }
+#searchResults a {
+  font-size: 120%;
+}
+#searchResults .jsSearchHighlighted {
+  background: lightgray;
+}
+#searchResults .jsSearchHighlighted a{
+  color: black;
+
+}
+
+#searchResults .jsSearchHighlighted a:visited{
+  background: lightgray;
+  color: black;
+}

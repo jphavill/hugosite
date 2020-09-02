@@ -12,48 +12,39 @@
     
     
     <item>
+      <title>Computing Math in Python</title>
+      <link>http://jasonhavill.com/articles/mathematics/</link>
+      <pubDate>Wed, 02 Sep 2020 12:33:06 -0300</pubDate>
+      
+      <guid>http://jasonhavill.com/articles/mathematics/</guid>
+      <description>A core part of any programming language is it&#39;s ability to compute mathematical problems, from processing data sets to calculating what pixels to display on a screen. Just as in traditional mathematics, these problems can be broken down and expressed as samller operations.</description>
+    </item>
+    
+    <item>
       <title>Working with Strings in Python</title>
       <link>http://jasonhavill.com/articles/strings/</link>
-      <pubDate>Tue, 01 Sep 2020 22:59:54 -0300</pubDate>
+      <pubDate>Wed, 02 Sep 2020 12:33:06 -0300</pubDate>
       
       <guid>http://jasonhavill.com/articles/strings/</guid>
       <description>A string is a data type that stores a series (or &#34;string&#34;) of characters. These characters could make up a word, a sentence, or even entire paragraphs. The HowA string is denoted by surrounding characters in either single &#39; or double &#34;</description>
     </item>
     
     <item>
-      <title>Printing Output in Python</title>
-      <link>http://jasonhavill.com/articles/print/</link>
-      <pubDate>Tue, 01 Sep 2020 22:57:43 -0300</pubDate>
-      
-      <guid>http://jasonhavill.com/articles/print/</guid>
-      <description>OutputThe easiest way for a program to display output to the user is to print out text to the screen. The print function accomplished this by printing whatever is passed to it to the console.</description>
-    </item>
-    
-    <item>
-      <title>Computing Math in Python</title>
-      <link>http://jasonhavill.com/articles/math/</link>
-      <pubDate>Tue, 01 Sep 2020 22:57:20 -0300</pubDate>
-      
-      <guid>http://jasonhavill.com/articles/math/</guid>
-      <description>An if else statement is what allows a program to respond in real time to outside input. With these statements, the program can change what code is executed based on variables within the program.</description>
-    </item>
-    
-    <item>
-      <title>If Else Logic in Python</title>
+      <title>If Else</title>
       <link>http://jasonhavill.com/articles/if-else/</link>
-      <pubDate>Wed, 19 Aug 2020 20:34:33 -0300</pubDate>
+      <pubDate>Wed, 02 Sep 2020 12:32:54 -0300</pubDate>
       
       <guid>http://jasonhavill.com/articles/if-else/</guid>
       <description>An if else statement is what allows a program to respond in real time to outside input. With these statements, the program can change what code is executed based on variables within the program.</description>
     </item>
     
     <item>
-      <title>tuples</title>
-      <link>http://jasonhavill.com/articles/tuples/</link>
-      <pubDate>Wed, 19 Aug 2020 20:34:33 -0300</pubDate>
+      <title>Printing Output in Python</title>
+      <link>http://jasonhavill.com/articles/print/</link>
+      <pubDate>Wed, 02 Sep 2020 10:27:53 -0300</pubDate>
       
-      <guid>http://jasonhavill.com/articles/tuples/</guid>
-      <description>A tuple is a data type which stores other data types in an ordered index. For example, a tuple can store integers, floats, strings, and even other tuples. You cannot add to or remove data from a tuple once it has been created.</description>
+      <guid>http://jasonhavill.com/articles/print/</guid>
+      <description>The easiest way for a program to display output to the user is to print out text to the screen. The print function accomplished this by printing whatever is passed to it to the console.</description>
     </item>
     
   </channel>
