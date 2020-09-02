@@ -27,22 +27,28 @@
 
 #contentList {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: ". listtitle ."
-                        ". articlelist .";
   text-align: center;
 }
 
+.summaryTitle {
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.summary {
+  margin-top: 5px;
+}
+
+li {
+  text-align: left;
+}
+
 #listtitle {
-  text-align: center;
-  grid-area: listtitle;
   margin-bottom: auto;
   margin-top: auto;
 }
 
 #articlelist {
-  grid-area: articlelist;
-  text-align: center;
   padding-right: 15px;
   margin-top: 0;
 }

@@ -22,7 +22,13 @@
         <div class="mainnav">
             <a href="/about" id="about"><span >ABOUT</span></a>
             <a href="/articles" id="articles"><span class='current'>ARTICLES</span></a>
-            <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+            <div id="searchArea">
+                <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+                <div id="searchResults" class="jsHidden">
+                </div>
+            </div>
+
+
         </div>
     </nav>
 </header>
@@ -53,25 +59,45 @@ these articles will be a great starting point.</p>
 </div>
 </div>
 <nav></nav>
+
         <section>
             <div id="contentList">
                 <h2 id="listtitle">All Articles</h2>
                 <ul id="articlelist">
                     
                         <li>
-                            <a href="http://jasonhavill.com/articles/print/">Print</a>
+                            <div>
+                                <h3 class="summaryTitle"><a href="http://jasonhavill.com/articles/strings/">Working with Strings in Python</a></h3>
+                                <p class="summary">A string is a data type that stores a series (or "string") of characters. These characters could make up a word, a sentence, or even entire paragraphs. The HowA string is denoted by surrounding characters in either single ' or double " <a href="/articles/strings/">Read More…</a></p>
+                            </div>
                         </li>
                     
                         <li>
-                            <a href="http://jasonhavill.com/articles/strings/">Strings</a>
+                            <div>
+                                <h3 class="summaryTitle"><a href="http://jasonhavill.com/articles/print/">Printing Output in Python</a></h3>
+                                <p class="summary">OutputThe easiest way for a program to display output to the user is to print out text to the screen. The print function accomplished this by printing whatever is passed to it to the console. <a href="/articles/print/">Read More…</a></p>
+                            </div>
                         </li>
                     
                         <li>
-                            <a href="http://jasonhavill.com/articles/if-else/">if-else</a>
+                            <div>
+                                <h3 class="summaryTitle"><a href="http://jasonhavill.com/articles/math/">Computing Math in Python</a></h3>
+                                <p class="summary">An if else statement is what allows a program to respond in real time to outside input. With these statements, the program can change what code is executed based on variables within the program. <a href="/articles/math/">Read More…</a></p>
+                            </div>
                         </li>
                     
                         <li>
-                            <a href="http://jasonhavill.com/articles/tuples/">tuples</a>
+                            <div>
+                                <h3 class="summaryTitle"><a href="http://jasonhavill.com/articles/if-else/">If Else Logic in Python</a></h3>
+                                <p class="summary">An if else statement is what allows a program to respond in real time to outside input. With these statements, the program can change what code is executed based on variables within the program. <a href="/articles/if-else/">Read More…</a></p>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div>
+                                <h3 class="summaryTitle"><a href="http://jasonhavill.com/articles/tuples/">tuples</a></h3>
+                                <p class="summary">A tuple is a data type which stores other data types in an ordered index. For example, a tuple can store integers, floats, strings, and even other tuples. You cannot add to or remove data from a tuple once it has been created. <a href="/articles/tuples/">Read More…</a></p>
+                            </div>
                         </li>
                     
                 </ul>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-    Print &ndash; Jason Havill
+    Printing Output in Python &ndash; Jason Havill
 
     </title>
     <link rel="stylesheet" href="/css/homepage.css">
@@ -22,7 +22,13 @@
         <div class="mainnav">
             <a href="/about" id="about"><span >ABOUT</span></a>
             <a href="/articles" id="articles"><span class='current'>ARTICLES</span></a>
-            <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+            <div id="searchArea">
+                <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+                <div id="searchResults" class="jsHidden">
+                </div>
+            </div>
+
+
         </div>
     </nav>
 </header>
@@ -31,9 +37,9 @@
 
     
     <main>
+        <h1>Printing Output in Python</h1>
         
-<main>
-<h1>Print</h1><section>
+<section>
 <h2></h2>
 </section>
 <section>
@@ -41,7 +47,7 @@
 <p>The easiest way for a program to display output to the user is to print out text to the screen. The print function accomplished this by printing whatever is passed to it to the console.</p></section>
 <section>
 <h2>The How</h2>
-<p>A print function is called just like any other function, with the name of the function followed by opening and closing parenthesis <code> <span class='nativeFunc'>print</span>() </code>. To pass an argument to the function, it is simply placed within the parenthesis.</p><div class="code">
+<p>A print function is called just like any other function, with the name of the function followed by opening and closing parenthesis <code><span class='nativeFunc'>print</span>()</code>. To pass an argument to the function, it is simply placed within the parenthesis.</p><div class="code">
 <div><code><span class='nativeFunc'>print</span>(<span class='string'>"Hello World"</span>)
 </code>
 </div></div>
@@ -88,7 +94,6 @@ answer = x <span class='symbol'>+</span> y
 </code>
 </div>
 <p>Creating a graphical user interface, or gui, is not needed for many applications, and would grow a relatively small project in to a much larger one if it was included. For this reason command line based applications are not only accepted, but encouraged unless a gui is truly needed. </p></section>
-</main>
 
     </main>
 

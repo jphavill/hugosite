@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-    Strings &ndash; Jason Havill
+    Working with Strings in Python &ndash; Jason Havill
 
     </title>
     <link rel="stylesheet" href="/css/homepage.css">
@@ -22,7 +22,13 @@
         <div class="mainnav">
             <a href="/about" id="about"><span >ABOUT</span></a>
             <a href="/articles" id="articles"><span class='current'>ARTICLES</span></a>
-            <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+            <div id="searchArea">
+                <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+                <div id="searchResults" class="jsHidden">
+                </div>
+            </div>
+
+
         </div>
     </nav>
 </header>
@@ -31,15 +37,15 @@
 
     
     <main>
+        <h1>Working with Strings in Python</h1>
         
-<main>
-<h1>Strings</h1><section>
+<section>
 <h2></h2>
 <p>A string is a data type that stores a series (or "string") of characters. These characters could make up a word, a sentence, or even entire paragraphs. </p><hr>
 </section>
 <section>
 <h2>The How</h2>
-<p>A string is denoted by surrounding characters in either single <code> '' </code> or double <code> <span class='string'>""</span> </code> quotes.</p><div class="code">
+<p>A string is denoted by surrounding characters in either single <code>'</code> or double <code>"</code> quotes.</p><div class="code">
 <div><code>myString = <span class='string'>"This is a string denoted with double quotes"</span>
 myOtherString = 'This is also a string<span class='keyword'>,</span> instead denoted with single quotes'</code>
 </div></div>
@@ -53,7 +59,7 @@ myOtherString = 'This is also a string<span class='keyword'>,</span> instead den
 </code>
 </div>
 <h3>Indexes</h3><p>Individual characters of a string can also be accessed using the position, or index, of the character in the string.</p><div class="code">
-<div><code>myString = <span class='string'>"ABCD1<span class='number'>23</span>!"</span>
+<div><code>myString = <span class='string'>"ABCD<span class='number'>123</span>!"</span>
 <span class='nativeFunc'>print</span>(myString[<span class='number'>2</span>])
 </code>
 </div></div>
@@ -62,7 +68,7 @@ myOtherString = 'This is also a string<span class='keyword'>,</span> instead den
 </code>
 </div>
 <p>You may have noticed that even though index 2 was used, the third character was printed. This is because strings are indexed starting at 0. Here are some more examples.</p><div class="code">
-<div><code>myString = <span class='string'>"ABCD1<span class='number'>23</span>!"</span>
+<div><code>myString = <span class='string'>"ABCD<span class='number'>123</span>!"</span>
 <span class='nativeFunc'>print</span>(myString[<span class='number'>0</span>])
 <span class='nativeFunc'>print</span>(myString[<span class='number'>1</span>])
 </code>
@@ -86,7 +92,6 @@ myOtherString = 'This is also a string<span class='keyword'>,</span> instead den
 <h2>Extras</h2>
 <hr>
 <h3>extra1</h3></section>
-</main>
 
     </main>
 

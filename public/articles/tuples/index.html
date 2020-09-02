@@ -22,7 +22,13 @@
         <div class="mainnav">
             <a href="/about" id="about"><span >ABOUT</span></a>
             <a href="/articles" id="articles"><span class='current'>ARTICLES</span></a>
-            <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+            <div id="searchArea">
+                <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
+                <div id="searchResults" class="jsHidden">
+                </div>
+            </div>
+
+
         </div>
     </nav>
 </header>
@@ -31,8 +37,8 @@
 
     
     <main>
-        <main>
-<h1>Tuples</h1><section>
+        <h1>tuples</h1>
+        <main><section>
 <h2></h2>
 <p>A tuple is a data type which stores other data types in an ordered index. For example, a tuple can store integers, floats, strings, and even other tuples. You cannot add to or remove data from a tuple once it has been created.</p><hr>
 </section>
@@ -316,7 +322,7 @@ new_tuple = nested_tuples[<span class='number'>0</span>])
 </div>
 </section>
 </main>
-
+{{/*todo find original markdown file*/}}
     </main>
 
 
