@@ -57,4 +57,4 @@ if __name__ == '__main__':
     convert_file(markdown_file)
 
 
-#todo make it one command to scan through all md files and check if any need to be updated
+# todo add <--more--> or whatever tag before first subheading to cut off summary
