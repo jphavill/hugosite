@@ -18,14 +18,13 @@ hidden_solution = False
 def create_main(sections):
     firstline = sections[0].split('\n')[0]
     title = firstline.strip('\n').strip().strip('#').strip()
-    main = f'<main>\n' \
+    main = ''
            # f'<h1>{title}</h1>'
     # main = f'<main>\n' \
     #        f'<h1>{title}</h1>'
     sections[0] = sections[0][len(firstline):]
     for section in sections:
         main += create_section(section)
-    main += '</main>\n'
     return main, title
 
 def create_section(section):
