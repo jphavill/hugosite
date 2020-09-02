@@ -145,9 +145,10 @@ a:hover {
 #searchResults a {
   font-size: 120%;
 }
-
-#searchResults .jsSearchHighlighted a{
+#searchResults .jsSearchHighlighted {
   background: lightgray;
+}
+#searchResults .jsSearchHighlighted a{
   color: black;
 
 }

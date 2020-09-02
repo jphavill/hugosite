@@ -44,7 +44,7 @@ def create_section(section, first_section=False):
             elif line[0] == '-':
                 if first_section:
                     first_section = False
-                    output += '<!--more-->'
+                    #output += '<!--more-->'
                 output += '<hr>\n'
             else:
                 output += create_paragraph(line)

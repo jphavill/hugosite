@@ -5,7 +5,7 @@
     <div id="contentList">
       <h2 id="listtitle">Recent Posts {{.Title}}</h2>
       <ul id="articlelist">
-        {{ range first 3 (where .Site.Pages.ByPublishDate "Section" "articles") }}
+        {{ range first 3 (where .Site.RegularPages.ByPublishDate "Section" "articles") }}
           <li>
             <div>
               <h3 class="summaryTitle"><a href="{{.Permalink}}">{{.Title}}</a></h3>
