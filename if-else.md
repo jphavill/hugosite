@@ -65,7 +65,7 @@ magic_number = 6
 guess = int(input("What is your guess")
 
 if guess < magic_number:
-	print("To low")
+  print("To low")
 
 ```
 
