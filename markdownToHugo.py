@@ -36,12 +36,12 @@ def checkOldFile(markdown_file, new_file_path, new_file, title, file_name):
                 print('no change detected')
                 return False
         remove(new_file_path)
-        return True
+    return True
+
 
 
 def createHtmlFile(file_name, new_file_path, title, new_file):
     system(f'hugo new articles/{file_name}.html')
-
     with open(new_file_path, 'r') as f:
         # reads the first line, the '---' of the frontmatter
         file_lines = f.readlines()

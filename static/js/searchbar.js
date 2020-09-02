@@ -1,3 +1,5 @@
+// import { findElement } from "/js/lookup.js";
+
 var searchPairs = {
     'about': '/about',
     'homepage': '/',
@@ -10,7 +12,7 @@ var searchPairs = {
 }
 
 var highlighted = 0
-
+console.log('test')
 function searchArticles(event, input) {
     var code = event.keyCode
     var maxResults = 5
@@ -19,10 +21,10 @@ function searchArticles(event, input) {
         // clear the serach box
         input.value=''
     }
-    searchTerm = input.value.toLowerCase()
+    let searchTerm = input.value.toLowerCase()
     let searchResultsBox = findElement('searchResults')
     searchResultsBox.innerHTML = ''
-    if (searchTerm != ''){
+    if (searchTerm !== ''){
         var searchResults = []
         for (var key in searchPairs) {
             if (key.toLowerCase().includes(searchTerm)){
@@ -70,6 +72,13 @@ function searchArticles(event, input) {
 
 }
 
+
+
+// when parsing content for search, ignore code multiline blocks, delete words than occur most commonly, such as "the"
+// requires two passes, fine because that only happens when i generate a new page
+// os.walks through all files in the content section
+//
+
 function findElement(identifier){
     // returns the element using the identifier checking if it is an id, name, class and finally an element type.
     var element = document.getElementById(identifier);
@@ -88,8 +97,3 @@ function findElement(identifier){
     return element;
 
 }
-
-// when parsing content for search, ignore code multiline blocks, delete words than occur most commonly, such as "the"
-// requires two passes, fine because that only happens when i generate a new page
-// os.walks through all files in the content section
-//

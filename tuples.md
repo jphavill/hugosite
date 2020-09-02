@@ -201,7 +201,7 @@ points = ((2, 12), (3, 13), (4, 7), (6, 2), (7, -3), (10, -8), (16, -23.0))
 
 HINT: When you use the index of a tuple to return a value, it will return whatever is at that position, even another tuple. If you’re still stuck, look at nested tuples in Extras.
 
-Hover below to see a possible solution.
+This is a sample solution, you can reveal it with the button below.
 
 ```py
 coor_one = (4, 7)

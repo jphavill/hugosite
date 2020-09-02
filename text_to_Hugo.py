@@ -12,10 +12,11 @@ import re
 #                 'https://twitter.com/jasonhavilltutorials/']
 
 #global variables
-hidden_solution = False
-
+practiceProblem = False
+hiddenCodeUsed = False
 # return title instead of putting it directly in file, then shove it into hugo frontmatter
 def create_main(sections):
+    global hiddenCodeUsed
     first_section = True
     firstline = sections[0].split('\n')[0]
     title = firstline.strip('\n').strip().strip('#').strip()
@@ -29,6 +30,8 @@ def create_main(sections):
         first_section=False
         if first_section:
             first_section = False
+    if hiddenCodeUsed:
+        main += '<script src="/js/solution.js"></script>'
     return main, title
 
 def create_section(section, first_section=False):
@@ -55,11 +58,15 @@ def create_section(section, first_section=False):
 
 
 def create_code(section):
-    global hidden_solution
-    if hidden_solution:
-        hidden_solution = False
+    global practiceProblem
+    global hiddenCodeUsed
+    print(practiceProblem)
+    if practiceProblem:
+        print('hidden code used')
+        hiddenCodeUsed = True
+        practiceProblem = False
         output = '<div class="code">\n' \
-                 '<div class="hiddencode"><code>'
+                 '<div class="practiceProblem"><code>'
     else:
         output = '<div class="code">\n' \
                  '<div><code>'
@@ -102,7 +109,7 @@ def create_output(section, firstline):
 
 
 def create_paragraph(line):
-    global hidden_solution
+    global practiceProblem
     line = re.sub(r"<", r"&lt;", line)
     line = re.sub(r">", r"&gt;", line)
 
@@ -110,8 +117,8 @@ def create_paragraph(line):
 
         line = re.sub(r"(### )(.*)", r"<h3>\2</h3>", line)
         return line
-    if re.search(r"hover below to see a possible solution", line, re.IGNORECASE):
-        hidden_solution = True
+    if re.search(r"you can reveal it with the button below", line, re.IGNORECASE):
+        practiceProblem = True
 
     line = re.sub(r'`(.*?)`', r"<code>\1</code>", line)
     lines = line.split('</code>')
