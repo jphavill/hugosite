@@ -142,13 +142,17 @@ a:hover {
 .jsHidden {
   visibility: hidden;
 }
+#searchResults a {
+  font-size: 120%;
+}
 
 #searchResults .jsSearchHighlighted a{
-  background: #888888;
+  background: lightgray;
   color: black;
+
 }
 
 #searchResults .jsSearchHighlighted a:visited{
-  background: #888888;
+  background: lightgray;
   color: black;
 }
