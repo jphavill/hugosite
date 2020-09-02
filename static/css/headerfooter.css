@@ -137,3 +137,7 @@ a:hover {
 .current {
   border-bottom: coral solid 4px;
 }
+
+.jsHidden {
+  visibility: hidden;
+}

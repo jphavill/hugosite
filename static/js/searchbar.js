@@ -20,6 +20,7 @@ function searchArticles(event, input) {
     searchTerm = input.value.toLowerCase()
     let searchResultsBox = findElement('searchResults')
     searchResultsBox.innerHTML = ''
+    searchResultsBox.classList.add('jsHidden')
     if (searchTerm != ''){
         var searchResults = []
         for (var key in searchPairs) {
@@ -30,7 +31,9 @@ function searchArticles(event, input) {
         }
 
         let resultsBox = document.createElement('ul')
-
+        if (searchResults.length > 0){
+            searchResultsBox.classList.remove('jsHidden')
+        }
         for (var result in searchResults){
             var entry = document.createElement('li')
             var entryLink = document.createElement('a')
