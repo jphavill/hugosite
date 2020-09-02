@@ -1,5 +1,5 @@
 # Printing Output in Python
-## Output
+
 The easiest way for a program to display output to the user is to print out text to the screen. The print function accomplished this by printing whatever is passed to it to the console.
 
 ## The How

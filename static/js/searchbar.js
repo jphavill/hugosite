@@ -9,9 +9,11 @@ var searchPairs = {
     'articles': '/articles'
 }
 
+var highlighted = 0
 
 function searchArticles(event, input) {
     var code = event.keyCode
+    var maxResults = 5
     // if the escape key is pressed
     if (code === 27) {
         // clear the serach box
@@ -20,7 +22,6 @@ function searchArticles(event, input) {
     searchTerm = input.value.toLowerCase()
     let searchResultsBox = findElement('searchResults')
     searchResultsBox.innerHTML = ''
-    searchResultsBox.classList.add('jsHidden')
     if (searchTerm != ''){
         var searchResults = []
         for (var key in searchPairs) {
@@ -30,26 +31,43 @@ function searchArticles(event, input) {
 
         }
 
+        if (code === 40) {
+            highlighted = Math.min(highlighted+1, searchResults.length-1, maxResults-1)
+            console.log(highlighted)
+        }
+        if (code === 38) {
+            highlighted = Math.max(highlighted-1, 0)
+        }
         let resultsBox = document.createElement('ul')
         if (searchResults.length > 0){
             searchResultsBox.classList.remove('jsHidden')
         }
-        for (let i = 0; i<Math.min(searchResults.length, 5); i++){
-            console.log(i)
+        for (let i = 0; i<Math.min(searchResults.length, maxResults); i++){
             var entry = document.createElement('li')
             var entryLink = document.createElement('a')
             entryLink.innerText = searchResults[i]
             entryLink.setAttribute('href', searchPairs[searchResults[i]])
+            if (i === highlighted){
+                entry.classList.add('jsSearchHighlighted')
+            }
+            if (i !== highlighted){
+                entry.classList.remove('jsSearchHighlighted')
+            }
             entry.appendChild(entryLink)
             resultsBox.appendChild(entry)
         }
         searchResultsBox.appendChild(resultsBox)
     }
     //todo add arrow keys to select between results and enter to go to that link
-    // if the enter key is pressed
+    // 38 = up 40 = down
+    //todo down if the enter key is pressed
     if (code === 13) {
-        // go to the top result 
+        window.location.href = searchPairs[searchResults[highlighted]]
 
+    }
+    if (input.value === ''){
+        highlighted = 0
+        searchResultsBox.classList.add('jsHidden')
     }
 
 

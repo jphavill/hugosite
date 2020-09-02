@@ -22,13 +22,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="math file now mathematics for some reason math is bugged">
-      <change afterPath="$PROJECT_DIR$/if-else.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuples.md" afterDir="false" />
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="added tuples and if-else markdown files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/if-else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articles/mathematics.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/mathematics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articles/print.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/print.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articles/strings.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/strings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdownToHugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdownToHugo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print.md" beforeDir="false" afterPath="$PROJECT_DIR$/print.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bestarticles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bestarticles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/headerfooter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/searchbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_to_Hugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_to_Hugo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +264,8 @@
     <MESSAGE value="testing renaming math file" />
     <MESSAGE value="testing renaming math file back to normal" />
     <MESSAGE value="math file now mathematics for some reason math is bugged" />
-    <option name="LAST_COMMIT_MESSAGE" value="math file now mathematics for some reason math is bugged" />
+    <MESSAGE value="added tuples and if-else markdown files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tuples and if-else markdown files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="249" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598964790079">

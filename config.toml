@@ -2,4 +2,4 @@ baseURL = "http://jasonhavill.com/"
 languageCode = "en-us"
 title = "Jason Havill"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-summaryLength = 30
+summaryLength = 50

@@ -26,6 +26,7 @@
                 <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
                 <div id="searchResults" class="jsHidden">
                 </div>
+                {{/* todo make the highlighting background span the entire box */}}
             </div>
 
 
@@ -34,7 +35,6 @@
 </header>
 <!-- Code that all your templates share, like a header -->
 <main>
-
     {{ block "main" . }}
         <!-- The part of the page that begins to differ between templates -->
     {{ end }}

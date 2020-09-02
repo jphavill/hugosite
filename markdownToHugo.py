@@ -55,6 +55,3 @@ if __name__ == '__main__':
     markdown_file = sys.argv[1]
 
     convert_file(markdown_file)
-
-
-# todo add <--more--> or whatever tag before first subheading to cut off summary

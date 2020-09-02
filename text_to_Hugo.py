@@ -16,6 +16,7 @@ hidden_solution = False
 
 # return title instead of putting it directly in file, then shove it into hugo frontmatter
 def create_main(sections):
+    first_section = True
     firstline = sections[0].split('\n')[0]
     title = firstline.strip('\n').strip().strip('#').strip()
     main = ''
@@ -24,10 +25,13 @@ def create_main(sections):
     #        f'<h1>{title}</h1>'
     sections[0] = sections[0][len(firstline):]
     for section in sections:
-        main += create_section(section)
+        main += create_section(section, first_section)
+        first_section=False
+        if first_section:
+            first_section = False
     return main, title
 
-def create_section(section):
+def create_section(section, first_section=False):
     output = "<section>\n"
     section = section.split('\n')
     output += f"<h2>{section.pop(0).strip()}</h2>\n"
@@ -38,6 +42,9 @@ def create_section(section):
                 section, result = create_code(section)
                 output += result
             elif line[0] == '-':
+                if first_section:
+                    first_section = False
+                    output += '<!--more-->'
                 output += '<hr>\n'
             else:
                 output += create_paragraph(line)
@@ -96,7 +103,6 @@ def create_output(section, firstline):
 
 def create_paragraph(line):
     global hidden_solution
-
     line = re.sub(r"<", r"&lt;", line)
     line = re.sub(r">", r"&gt;", line)
 
@@ -121,14 +127,6 @@ def create_paragraph(line):
             else:
                 non_code = parts[0]
                 code = ''
-            # code = re.sub(r"(<code>.*?)(\+|-|/|%|\*|&gt;|&lt;)", r"\1<span class='symbol'>\2</span>", code)
-            # code = re.sub(r"(<code>.*?)(\b(print|int|str|chr|list|tuple|set|dict|quit|enumerate|range)\b)", r"\1<span class='nativeFunc'>\2</span>", code)
-            # code = re.sub(r"(<code>.*?)(\b(if|else|elif|for|in|while|and|or|not|def|return|True|False|as|continue|break|==|!|>=|<=|&lt;|&gt;)\b)",
-            #               r"\1<span class='keyword'>\2</span>", code)
-            # code = re.sub(r"(<code>.*?)(\b([0-9]+)\b)", r"\1<span class='number'>\2</span>", code)
-            # code = re.sub(r'(<code>.*?)(".*?")', r"\1<span class='string'>\2</span>", code)
-            # code = re.sub(r"(<code>.*?)(,)", r"\1<span class='keyword'>\2</span>", code)
-            # code = re.sub(r"(<code>.*?)(:)", r"\1<span class='keyword'>\2</span>", code)
             code = add_colour(code)
             lines[index] = non_code + ('<code>' if '<code>' in part else '') + code
         line = '</code>'.join(lines)
