@@ -2,7 +2,7 @@ var searchPairs = {
     'about': '/about',
     'homepage': '/',
     'if-else': '/articles/if-else',
-    'math': '/articles/math',
+    'math': '/articles/mathematics',
     'strings': '/articles/strings',
     'print': '/articles/print',
     'tuples': '/articles/tuples',

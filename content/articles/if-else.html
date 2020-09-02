@@ -1,87 +1,84 @@
 ---
-title: "If Else Logic in Python"
-date: 2020-08-19T20:34:33-03:00
-draft: false
-type: "post"
+title: "If Else"
+date: 2020-09-02T10:02:59-03:00
+draft: true
 ---
-	<h2></h2>
-	<p>An if else statement is what allows a program to respond in real time to outside input. With these statements, the program can change what code is executed based on variables within the program.</p><hr>
+
+<section>
+<h2></h2>
+<p>An if else statement is what allows a program to respond in real time to outside input. With these statements, the program can change what code is executed based on variables within the program.</p><hr>
 </section>
 <section>
-	<h2>The Why</h2>
-	<p>Without if else statements every program would run identically every time,  severely restricting its usefulness. It is these statements which allow a calculator to deal with dividing by zero, a website to validate login credentials, and a game to discover when a shot has landed.</p><hr>
+<h2>Why If Else Statements are Used</h2>
+<p>Without if else statements every program would run identically every time,  severely restricting its usefulness. It is these statements which allow a calculator to deal with dividing by zero, a website to validate login credentials, and a game to discover when a shot has landed.</p><hr>
 </section>
 <section>
-	<h2>The How</h2>
-	<div class="code">
-		<div><code>	number_A = <span class='number'>5</span>
-				number_B = <span class='number'>4</span>
-				<span class='keyword'>if</span> number_A &gt; number_B<span class='keyword'>:</span></code>
-		</div></div>
-	<p>The statement begins with the <code> <span class='keyword'>if</span> </code> keyword, followed by the condition, then a colon, and finally an indented block of code. This code will only run if the condition is true.</p><div class="code">
-		<div><code>	number_A = <span class='number'>5</span>
-				number_B = <span class='number'>4</span>
-				<span class='keyword'>if</span> number_A &gt; number_B<span class='keyword'>:</span>
-				<span class='nativeFunc'>print</span>(<span class='string'>"number A is bigger than number B"</span>)
-			</code>
-		</div></div>
-	<div class="output">
-		<code>	OUTPUT: "number A is bigger than number B"
-		</code>
-	</div>
-	<p> In the examples above the code runs just fine without the final part of an if else statements, the else. Here the program will simply skip over the indented code if the conditional is false, and continue on. However, in many cases it is useful to have a dedicated section of code to run if the condition is false, and this is done with the <code> <span class='keyword'>else</span> </code>  keyword. It is used in the same way as the <code> <span class='keyword'>if</span> </code> keyword,  with a  colon following it and then its own indented block of code.</p><div class="code">
-		<div><code>	number_A = <span class='number'>2</span>
-				number_B = <span class='number'>4</span>
-				<span class='keyword'>if</span> number_A &gt; number_B<span class='keyword'>:</span>
-				<span class='nativeFunc'>print</span>(<span class='string'>"number A is bigger than number B"</span>)
-				<span class='keyword'>else</span><span class='keyword'>:</span>
-				<span class='nativeFunc'>print</span>(<span class='string'>"number B is bigger than number A"</span>)
-			</code>
-		</div></div>
-	<div class="output">
-		<code>	OUTPUT: "number B is bigger than number A"
-		</code>
-	</div>
-	<p>A computer treats an if else statement as a branch in the rails of your program, with the conditional acting as the switch. After either the indented code under either the  <code> <span class='keyword'>if</span> </code>  keyword or the  <code> <span class='keyword'>else</span> </code>  keyword has been run, the code continues on in its normal linear fashion.</p><div class="code">
-		<div><code>	<span class='nativeFunc'>print</span>(<span class='string'>"program begins"</span>)
-				number_C = <span class='number'>2</span>
-				number_D = <span class='number'>4</span>
+<h2>Structure of If Else</h2>
+<div class="code">
+<div><code>number_A = <span class='number'>5</span>
+number_B = <span class='number'>4</span>
+<span class='keyword'>if</span> number_A &gt; number_B<span class='keyword'>:</span></code>
+</div></div>
+<p>The statement begins with the <code><span class='keyword'>if</span></code> keyword, followed by the condition, then a colon, and finally an indented block of code. This code will only run if the condition is true.</p><div class="code">
+<div><code>number_A = <span class='number'>5</span>
+number_B = <span class='number'>4</span>
+<span class='keyword'>if</span> number_A &gt; number_B<span class='keyword'>:</span>
+  <span class='nativeFunc'>print</span>(<span class='string'>"number A is bigger than number B"</span>)
+</code>
+</div></div>
+<div class="output">
+<code>OUTPUT: "number A is bigger than number B"
+</code>
+</div>
+<p> In the examples above the code runs just fine without the final part of an if else statements, the else. Here the program will simply skip over the indented code if the conditional is false, and continue on. However, in many cases it is useful to have a dedicated section of code to run if the condition is false, and this is done with the <code><span class='keyword'>else</span></code>  keyword. It is used in the same way as the <code><span class='keyword'>if</span></code> keyword,  with a  colon following it and then its own indented block of code.</p><div class="code">
+<div><code>number_A = <span class='number'>2</span>
+number_B = <span class='number'>4</span>
+<span class='keyword'>if</span> number_A &gt; number_B<span class='keyword'>:</span>
+  <span class='nativeFunc'>print</span>(<span class='string'>"number A is bigger than number B"</span>)
+<span class='keyword'>else</span><span class='keyword'>:</span>
+  <span class='nativeFunc'>print</span>(<span class='string'>"number B is bigger than number A"</span>)
+</code>
+</div></div>
+<div class="output">
+<code>OUTPUT: "number B is bigger than number A"
+</code>
+</div>
+<p>A computer treats an if else statement as a branch in the rails of your program, with the conditional acting as the switch. After either the indented code under either the  <code><span class='keyword'>if</span></code>  keyword or the  <code><span class='keyword'>else</span></code>  keyword has been run, the code continues on in its normal linear fashion.</p><div class="code">
+<div><code><span class='nativeFunc'>print</span>(<span class='string'>"program begins"</span>)
+number_C = <span class='number'>2</span>
+number_D = <span class='number'>4</span>
 
-				<span class='keyword'>if</span> number_C &gt; number_D<span class='keyword'>:</span>
-				<span class='nativeFunc'>print</span>(<span class='string'>"number C is bigger than number B"</span>)
-				<span class='keyword'>else</span><span class='keyword'>:</span>
-				<span class='nativeFunc'>print</span>(<span class='string'>"number D is bigger than number A"</span>)
+<span class='keyword'>if</span> number_C &gt; number_D<span class='keyword'>:</span>
+  <span class='nativeFunc'>print</span>(<span class='string'>"number C is bigger than number B"</span>)
+<span class='keyword'>else</span><span class='keyword'>:</span>
+  <span class='nativeFunc'>print</span>(<span class='string'>"number D is bigger than number A"</span>)
 
-				<span class='nativeFunc'>print</span>(<span class='string'>"program continuing to run"</span>)
-			</code>
-		</div></div>
-	<div class="output">
-		<code>	OUTPUT: "program begins"
-			"number B is bigger than number A"
-			"program continuing to run"
-		</code>
-	</div>
-	<hr>
+<span class='nativeFunc'>print</span>(<span class='string'>"program continuing to run"</span>)
+</code>
+</div></div>
+<div class="output">
+<code>OUTPUT: "program begins"
+	"number B is bigger than number A"
+	"program continuing to run"
+</code>
+</div>
+<hr>
 </section>
 <section>
-	<h2>Practical Uses</h2>
-	<p>If the guesses number is correct</p><div class="code">
-		<div><code>	<span class='nativeFunc'>print</span>(<span class='string'>"Please attempt to guess the number between <span class='number'>1</span> <span class='keyword'>and</span> <span class='number'>10</span>"</span>)
+<h2>Practical Uses of If Else</h2>
+<p>If the guesses number is correct</p><div class="code">
+<div><code><span class='nativeFunc'>print</span>(<span class='string'>"Please attempt to guess the number between <span class='number'>1</span> <span class='keyword'>and</span> <span class='number'>10</span>"</span>)
 
-				magic_number = <span class='number'>6</span>
+magic_number = <span class='number'>6</span>
 
-				guess = <span class='nativeFunc'>int</span>(input(<span class='string'>"What is your guess"</span>)
+guess = <span class='nativeFunc'>int</span>(input(<span class='string'>"What is your guess"</span>)
 
-
-
-				<span class='keyword'>if</span> guess &lt; magic_number<span class='keyword'>:</span>
-				<span class='nativeFunc'>print</span>(<span class='string'>"To low"</span>)
-			</code>
-		</div></div>
-	<hr>
+<span class='keyword'>if</span> guess &lt; magic_number<span class='keyword'>:</span>
+	<span class='nativeFunc'>print</span>(<span class='string'>"To low"</span>)
+</code>
+</div></div>
+<hr>
 </section>
 <section>
-	<h2>Practice Problems</h2>
+<h2>Practice Problems</h2>
 </section>
-
-{{/*todo find original markdown file*/}}
