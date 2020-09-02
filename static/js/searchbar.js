@@ -58,9 +58,6 @@ function searchArticles(event, input) {
         }
         searchResultsBox.appendChild(resultsBox)
     }
-    //todo add arrow keys to select between results and enter to go to that link
-    // 38 = up 40 = down
-    //todo down if the enter key is pressed
     if (code === 13) {
         window.location.href = searchPairs[searchResults[highlighted]]
 

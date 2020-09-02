@@ -22,22 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="added tuples and if-else markdown files">
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="added arrow key and enter key functionality to search bar">
+      <change afterPath="$PROJECT_DIR$/undraft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/if-else.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/mathematics.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/mathematics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/print.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/print.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/strings.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/strings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdownToHugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdownToHugo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print.md" beforeDir="false" afterPath="$PROJECT_DIR$/print.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bestarticles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bestarticles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/headerfooter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/searchbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_to_Hugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_to_Hugo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
       <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.generate_search_database">
+  <component name="RunManager" selected="Python.undraft">
     <configuration name="fstringstest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jasonhavill.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,21 +134,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="markdownToHugo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="undraft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jasonhavill.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venvmac/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/markdownToHugo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/undraft.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -206,6 +199,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.undraft" />
         <item itemvalue="Python.generate_search_database" />
         <item itemvalue="Python.updateContent (1)" />
         <item itemvalue="Python.updateContent" />
@@ -265,7 +259,8 @@
     <MESSAGE value="testing renaming math file back to normal" />
     <MESSAGE value="math file now mathematics for some reason math is bugged" />
     <MESSAGE value="added tuples and if-else markdown files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tuples and if-else markdown files" />
+    <MESSAGE value="added arrow key and enter key functionality to search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="added arrow key and enter key functionality to search bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="249" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598964790079">
@@ -328,10 +323,10 @@
     <state x="64" y="328" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1598884954152" />
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
     <state x="98" y="437" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598964727142" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1599047615151">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1599056276975">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598834586324" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599056276975" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599047615151" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598490361192" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
