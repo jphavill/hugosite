@@ -1,10 +1,10 @@
 ---
-title: "About Me"
+title: "About"
 date: 2020-08-23T11:33:52-03:00
 draft: false
 ---
 
-# Why This Blog Exists  
+## Why This Blog Exists  
 
 While I'm coding, I'm almost always listening to music. When I come to a point where I need more information, and inevitably turn to Google, I hate having to pause the music to watch an entire video tutorial. I would much rather skim through an article, find the exact piece I need, and never have to break my flow. 
 
