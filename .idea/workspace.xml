@@ -23,21 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="testing math page html content">
-      <change afterPath="$PROJECT_DIR$/public/articles/math/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/math.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/if-else/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/if-else/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/print/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/print/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/strings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/strings/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/tuples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/tuples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bestarticles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bestarticles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/headerfooter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/searchbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math.md" beforeDir="false" afterPath="$PROJECT_DIR$/math.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,11 +311,11 @@
     <state x="64" y="328" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1598884954152" />
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
     <state x="98" y="437" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598964727142" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1599012467382">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1599012960924">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598834586324" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599012467382" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599012960924" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598490361192" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598201656547" />
