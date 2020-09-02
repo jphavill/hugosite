@@ -41,7 +41,7 @@ function searchArticles(event, input) {
         }
         searchResultsBox.appendChild(resultsBox)
     }
-
+    //todo add arrow keys to select between results and enter to go to that link
     // if the enter key is pressed
     if (code === 13) {
         // go to the top result 

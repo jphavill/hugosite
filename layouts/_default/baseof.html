@@ -24,7 +24,8 @@
             <a href="/articles" id="articles"><span {{ if or (eq .Title "articles") (eq .Section "articles" ) }}class='current'{{ end }}>ARTICLES</span></a>
             <div id="searchArea">
                 <input type="text" placeholder="Search" id="searchbar" onkeyup="searchArticles(event, this)">
-                <div id="searchResults"></div>
+                <div id="searchResults">
+                </div>
             </div>
 
 
