@@ -34,11 +34,12 @@ function searchArticles(event, input) {
         if (searchResults.length > 0){
             searchResultsBox.classList.remove('jsHidden')
         }
-        for (var result in searchResults){
+        for (let i = 0; i<Math.min(searchResults.length, 5); i++){
+            console.log(i)
             var entry = document.createElement('li')
             var entryLink = document.createElement('a')
-            entryLink.innerText = searchResults[result]
-            entryLink.setAttribute('href', searchPairs[searchResults[result]])
+            entryLink.innerText = searchResults[i]
+            entryLink.setAttribute('href', searchPairs[searchResults[i]])
             entry.appendChild(entryLink)
             resultsBox.appendChild(entry)
         }
