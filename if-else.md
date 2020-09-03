@@ -1,4 +1,4 @@
-# If Else
+# Using If Else Logic 
 
 An if else statement is what allows a program to respond in real time to outside input. With these statements, the program can change what code is executed based on variables within the program.
 
@@ -62,7 +62,7 @@ print("Please attempt to guess the number between 1 and 10")
 
 magic_number = 6
 
-guess = int(input("What is your guess")
+guess = int(input("What is your guess"))
 
 if guess < magic_number:
   print("To low")

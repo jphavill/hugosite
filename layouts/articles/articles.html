@@ -1,0 +1,52 @@
+{{define "main"}}
+    {{.Content}}
+    <div class="pythonarticles">
+        <div id="beginnerpython">
+            <h2>Beginner Python</h2>
+            <nav>
+                <ul id="beginPyList">
+                    {{ range first 3 (where .Pages ".Params.tags" "intersect" (slice "BeginPy")) }}
+                        <li>
+                            <div>
+                                <h3 class="summaryTitle"><a href="{{.Permalink}}">{{.Title}}</a></h3>
+                                <p class="summary">{{.Summary | plainify}} <a href="{{ .RelPermalink }}" class="readmore">Read More…</a></p>
+                            </div>
+                        </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+        <div id="intermediatepython">
+            <h2>Intermediate Python</h2>
+            <nav>
+                <ul id="interPyList">
+                    {{ range first 3 (where .Pages ".Params.tags" "intersect" (slice "InterPy")) }}
+                        <li>
+                            <div>
+                                <h3 class="summaryTitle"><a href="{{.Permalink}}">{{.Title}}</a></h3>
+                                <p class="summary">{{.Summary | plainify}} <a href="{{ .RelPermalink }}" class="readmore">Read More…</a></p>
+                            </div>
+                        </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <nav></nav>
+    <section>
+        <div id="contentList">
+            <h2 id="listtitle">All {{.Title}}</h2>
+            <ul id="articlelist">
+                {{ range .Pages.ByPublishDate }}
+                    <li>
+                        <div>
+                            <h3 class="summaryTitle"><a href="{{.Permalink}}">{{.Title}}</a></h3>
+                            <p class="summary">{{.Summary | plainify}} <a href="{{ .RelPermalink }}" class="readmore">Read More…</a></p>
+                        </div>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+
+    </section>
+{{ end }}

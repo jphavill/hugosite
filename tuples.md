@@ -1,5 +1,7 @@
-# Tuples
+# Storing Data in Tuples
+
 A tuple is a data type which stores other data types in an ordered index. For example, a tuple can store integers, floats, strings, and even other tuples. You cannot add to or remove data from a tuple once it has been created.
+
 ---
 
 ## Creating a Tuple

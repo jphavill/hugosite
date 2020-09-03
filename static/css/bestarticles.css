@@ -1,32 +1,35 @@
 .pythonarticles {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: ". beginner ."
-                        "intermediate . advanced";
+  /*display: grid;*/
+  /*grid-template-rows: repeat(1, 1fr);*/
+  /*grid-template-areas: "beginner"*/
+  /*                      "intermediate";*/
+  margin: 100px 0 200px 0;
 }
 
-.pythonarticles div {
+.pythonarticles h2 {
   text-align: center;
+  margin: 0;
 }
 
 .pythonarticles h2 {
   font-size: 100%;
 }
 
-#beginnerpython {
-  grid-area: beginner;
+#beginPyList li:first-of-type .summaryTitle {
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
-#intermediatepython {
-  grid-area: intermediate;
-}
 
-#advancedpython {
-  grid-area: advanced;
-}
+/*#beginnerpython {*/
+/*  grid-area: beginner;*/
+/*}*/
+
+/*#intermediatepython {*/
+/*  grid-area: intermediate;*/
+/*}*/
 
 #contentList {
-  display: grid;
   text-align: center;
 }
 

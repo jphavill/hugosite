@@ -15,16 +15,33 @@ import re
 practiceProblem = False
 hiddenCodeUsed = False
 # return title instead of putting it directly in file, then shove it into hugo frontmatter
+
+def rip_tags(section):
+    lines = section.split('\n')
+    tags = []
+    if lines[0][0] == '-':
+        line = lines[0]
+        while line[0] == '-':
+            tags.append(line.strip('-'))
+            line = lines[len(tags)]
+    return tags
+
+
 def create_main(sections):
     global hiddenCodeUsed
     first_section = True
-    firstline = sections[0].split('\n')[0]
+
+    tags = rip_tags(sections[0])
+    firstline = sections[0].split('\n')[len(tags)]
     title = firstline.strip('\n').strip().strip('#').strip()
     main = ''
            # f'<h1>{title}</h1>'
     # main = f'<main>\n' \
     #        f'<h1>{title}</h1>'
-    sections[0] = sections[0][len(firstline):]
+
+    # add extra 2 to each tag 1 for '-' 1 for \n
+    # add extra 1 for the first line for \n
+    sections[0] = sections[0][sum([len(i)+2 for i in tags])+len(firstline)+1:]
     for section in sections:
         main += create_section(section, first_section)
         first_section=False
@@ -32,7 +49,7 @@ def create_main(sections):
             first_section = False
     if hiddenCodeUsed:
         main += '<script src="/js/solution.js"></script>'
-    return main, title
+    return main, title, tags
 
 def create_section(section, first_section=False):
     output = "<section>\n"
@@ -174,8 +191,8 @@ def create_span(word, classtype):
 def convert(file):
     with open(f"{file}", "r") as f:
         sections = f.read().split("\n## ")
-        output, title = create_main(sections)
-        return output, title
+        output, title, tags = create_main(sections)
+        return output, title, tags
 
 def output(file):
     file_name = file.split('.')[0]

@@ -8,7 +8,7 @@ def update():
 
     markdown_files = [file for file in files if (splitext(file)[1] == '.md' and splitext(file)[0] != 'blog_template')]
     for file in markdown_files:
-        print(f'checking {file}')
+        print(f'checking {file}', end='\t\t>>>\t')
         convert_file(file)
 
 if __name__ == '__main__':
