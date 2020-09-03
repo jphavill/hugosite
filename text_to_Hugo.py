@@ -60,9 +60,7 @@ def create_section(section, first_section=False):
 def create_code(section):
     global practiceProblem
     global hiddenCodeUsed
-    print(practiceProblem)
     if practiceProblem:
-        print('hidden code used')
         hiddenCodeUsed = True
         practiceProblem = False
         output = '<div class="code">\n' \
