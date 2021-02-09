@@ -11,47 +11,49 @@ import re
 #                 'https://instagram.com/jasonhavilltutorials/',
 #                 'https://twitter.com/jasonhavilltutorials/']
 
-#global variables
+#------global variables
+#used to keep track of whether or not the upcoming code is a practice problem.
+# Done by matching a line in a paragraph, then the next code block is treated as the pradtice problem
+# todo add option for practice outputs as well, if an output directly follows a practice problem also hide it button says check your answer
 practiceProblem = False
+# tracks if a hidden code button is anywhere in the file, if yes add the javascript for it.
+# todo add a tag instead of directly adding the javascript, then use partials for all css and javscript links
+# todo add support for broken paragraphs?
 hiddenCodeUsed = False
-# return title instead of putting it directly in file, then shove it into hugo frontmatter
 
 def rip_tags(section):
+    """returns the tags of an article (denoted by -[TAG]) from the first section as a list"""
     lines = section.split('\n')
     tags = []
     if lines[0][0] == '-':
         line = lines[0]
+        # all tags are listed in a row, while still in the lists of tags
         while line[0] == '-':
             tags.append(line.strip('-'))
+            # did this for a meme because tags are listed first so it works
             line = lines[len(tags)]
     return tags
 
 
 def create_main(sections):
+    """takes the sections of an article (split by headers) and recombines them as html content
+    returns the html, the title (first header of the file) and the tags (before first header -[TAG]"""
     global hiddenCodeUsed
-    first_section = True
-
     tags = rip_tags(sections[0])
     firstline = sections[0].split('\n')[len(tags)]
     title = firstline.strip('\n').strip().strip('#').strip()
     main = ''
-           # f'<h1>{title}</h1>'
-    # main = f'<main>\n' \
-    #        f'<h1>{title}</h1>'
-
     # add extra 2 to each tag 1 for '-' 1 for \n
     # add extra 1 for the first line for \n
     sections[0] = sections[0][sum([len(i)+2 for i in tags])+len(firstline)+1:]
     for section in sections:
-        main += create_section(section, first_section)
-        first_section=False
-        if first_section:
-            first_section = False
+        main += create_section(section)
+    # if the buttons for revealing hidden code is used, include the script for it
     if hiddenCodeUsed:
         main += '<script src="/js/solution.js"></script>'
     return main, title, tags
 
-def create_section(section, first_section=False):
+def create_section(section):
     output = "<section>\n"
     section = section.split('\n')
     output += f"<h2>{section.pop(0).strip()}</h2>\n"
@@ -62,9 +64,6 @@ def create_section(section, first_section=False):
                 section, result = create_code(section)
                 output += result
             elif line[0] == '-':
-                if first_section:
-                    first_section = False
-                    #output += '<!--more-->'
                 output += '<hr>\n'
             else:
                 output += create_paragraph(line)

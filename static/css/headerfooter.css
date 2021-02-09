@@ -23,13 +23,13 @@ a {
   color: cornflowerblue;
 }
 
-a:visited {
-  color: cornflowerblue;
-}
+  a:visited {
+    color: cornflowerblue;
+  }
 
-a:hover {
-  color: black;
-}
+  a:hover {
+    color: black;
+  }
 
 
 .topnav {
@@ -41,25 +41,111 @@ a:hover {
   grid-template-areas: "name . . mainnav"
   "line line line line";
 }
-.topnav a{
-  font-size: 120%;
-  margin-top: 30px;
-  text-decoration: none;
-  color: black;
-}
 
-.topnav a:visited {
-  color: black;
-}
+  .topnav a{
+    font-size: 120%;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+  }
 
-.topnav a:hover {
-  text-decoration: none;
-  color: cornflowerblue;
-}
+  .topnav a:visited {
+    color: black;
+  }
 
-.homepage {
-  grid-area: name;
-}
+  .topnav a:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+  }
+
+  .topnav hr {
+    grid-area: line;
+  }
+
+  #searchArea {
+    position: relative;
+    grid-area: search;
+    max-width: 40%;
+    max-height: 50%;
+  }
+
+  #searchbar {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20%;
+
+
+  }
+
+  #searchResults {
+    position: absolute;
+    border-color: #888888;
+    border-style: solid;
+    border-width: 2px;
+    width: 60%;
+  }
+
+  #searchResults a:visited{
+    color: cornflowerblue;
+  }
+
+  #searchResults a{
+    color: cornflowerblue;
+    margin: 0;
+  }
+
+  #searchResults a:hover{
+    color: black;
+  }
+
+
+
+  #searchResults a {
+    font-size: 120%;
+  }
+  #searchResults ul {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 0;
+    background-color: white;
+  }
+
+  #searchResults ul li {
+    padding: 0 4px;
+  }
+
+  .current {
+    border-bottom: coral solid 4px;
+  }
+
+  .jsHidden {
+    visibility: hidden;
+  }
+
+  #searchResults .jsSearchHighlighted {
+    background: lightgray;
+  }
+  #searchResults .jsSearchHighlighted a{
+    color: black;
+
+  }
+
+  #searchResults .jsSearchHighlighted a:visited{
+    background: lightgray;
+    color: black;
+  }
+
+  .homepage {
+      grid-area: name;
+    }
+
+  #about {
+    grid-area: about;
+  }
+
+  #articles {
+    grid-area: articles;
+  }
 
 .mainnav {
   grid-area: mainnav;
@@ -68,92 +154,8 @@ a:hover {
   grid-template-areas: "about articles search";
 }
 
-.mainnav > * {
-  padding: 20px 50px;
-}
-
-#about {
-  grid-area: about;
-}
-
-#articles {
-  grid-area: articles;
-}
-
-#searchArea {
-  position: relative;
-  grid-area: search;
-  max-width: 40%;
-  max-height: 50%;
-}
-
-#searchbar {
-  max-width: 100%;
-  max-height: 100%;
-  margin-top: 20%;
+  .mainnav > * {
+    padding: 20px 50px;
+  }
 
 
-}
-
-#searchResults {
-  position: absolute;
-  border-color: #888888;
-  border-style: solid;
-  border-width: 2px;
-  width: 60%;
-}
-
-#searchResults a:visited{
-  color: cornflowerblue;
-}
-
-#searchResults a{
-  color: cornflowerblue;
-  margin: 0;
-}
-
-#searchResults a:hover{
-  color: black;
-}
-
-#searchResults ul {
-  margin-bottom: 2px;
-  margin-top: 2px;
-  padding: 0;
-  background-color: white;
-}
-
-#searchResults ul li {
-  padding: 0 4px;
-}
-
-#data {
-  grid-area: data;
-}
-
-.topnav hr {
-  grid-area: line;
-}
-
-.current {
-  border-bottom: coral solid 4px;
-}
-
-.jsHidden {
-  visibility: hidden;
-}
-#searchResults a {
-  font-size: 120%;
-}
-#searchResults .jsSearchHighlighted {
-  background: lightgray;
-}
-#searchResults .jsSearchHighlighted a{
-  color: black;
-
-}
-
-#searchResults .jsSearchHighlighted a:visited{
-  background: lightgray;
-  color: black;
-}

@@ -23,39 +23,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="updated print.html">
-      <change afterPath="$PROJECT_DIR$/layouts/articles/articles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bubblesort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/articles/bubblesort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/articles/git.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plaground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/testim.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog_template.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/if-else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articles/mathematics.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/mathematics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/print.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/print.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/strings.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/strings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fstringstest.py" beforeDir="false" afterPath="$PROJECT_DIR$/fstringstest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if-else.md" beforeDir="false" afterPath="$PROJECT_DIR$/if-else.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdownToHugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdownToHugo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print.md" beforeDir="false" afterPath="$PROJECT_DIR$/print.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/if-else/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/if-else/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/print/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/print/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/strings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/strings/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/tuples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/tuples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/articles/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathematics.md" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/articles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/bestarticles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bestarticles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings.md" beforeDir="false" afterPath="$PROJECT_DIR$/strings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/headerfooter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_to_Hugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_to_Hugo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tuples.md" beforeDir="false" afterPath="$PROJECT_DIR$/tuples.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/undraft.py" beforeDir="false" afterPath="$PROJECT_DIR$/undraft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/updateContent.py" beforeDir="false" afterPath="$PROJECT_DIR$/updateContent.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +70,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/markdownToHugo.py" root0="SKIP_INSPECTION" />
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="jasonhavill.com/invalid/Python facet" />
+    </ignored-facets>
+  </component>
   <component name="ProjectId" id="1gL3HkE7WYaqDE17O5dLEP9o6wN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -96,10 +94,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\static" />
+      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\content\articleslist" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
+      <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\layouts\articles" />
       <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\static\js" />
@@ -107,15 +112,42 @@
       <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com" />
       <recent name="C:\Hugo\Sites\jasonhavill.com" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\content\articleslist" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com\static" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.publish">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.draft_server">
+    <configuration name="draft_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jasonhavill.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draft_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="fstringstest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jasonhavill.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fstringstest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -137,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_search_database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="plaground" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jasonhavill.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +182,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_search_database.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plaground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,28 +204,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/publish.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="undraft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jasonhavill.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/undraft.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,6 +226,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/updateContent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -223,15 +238,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.draft_server" />
+        <item itemvalue="Python.plaground" />
+        <item itemvalue="Python.updateContent (1)" />
         <item itemvalue="Python.publish" />
         <item itemvalue="Python.fstringstest" />
-        <item itemvalue="Python.undraft" />
-        <item itemvalue="Python.generate_search_database" />
-        <item itemvalue="Python.updateContent (1)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,23 +258,37 @@
       <option name="presentableId" value="Default" />
       <updated>1598796484083</updated>
       <workItem from="1598796486208" duration="4000" />
+      <workItem from="1606627800557" duration="186000" />
+      <workItem from="1606665888505" duration="329000" />
+      <workItem from="1606755719794" duration="2245000" />
+      <workItem from="1606843368239" duration="2000" />
+      <workItem from="1607009447472" duration="800000" />
+      <workItem from="1607141582698" duration="2035000" />
+      <workItem from="1607404489735" duration="1157000" />
+      <workItem from="1607488505659" duration="1375000" />
+      <workItem from="1608237064594" duration="11000" />
+      <workItem from="1608782231962" duration="7000" />
+      <workItem from="1608849575303" duration="599000" />
+      <workItem from="1609044677935" duration="91000" />
+      <workItem from="1612840412111" duration="2578000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -320,45 +349,50 @@
       <screen x="-1080" y="-478" width="1080" height="1920" />
     </state>
     <state x="-702" y="186" key="Github.UntrackedFilesDialog/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598195945793" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1599150325261">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1599152378851">
+      <screen x="-1080" y="-478" width="1080" height="1880" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@-1080.-478.1080.1880" timestamp="1599152378851" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599150325261" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599078766436" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598964592213" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598965333153" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1599150325261">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1599152378851">
+      <screen x="-1080" y="-478" width="1080" height="1880" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@-1080.-478.1080.1880" timestamp="1599152378851" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599150325261" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599078766436" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598964592213" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598965333153" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1599150325261">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1599152378851">
+      <screen x="-1080" y="-478" width="1080" height="1880" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@-1080.-478.1080.1880" timestamp="1599152378851" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599150325261" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599078766436" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598964592212" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598965333152" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1599150325261">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1599152378851">
+      <screen x="-1080" y="-478" width="1080" height="1880" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@-1080.-478.1080.1880" timestamp="1599152378851" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599150325261" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599078766436" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598964592213" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598965333153" />
-    <state x="97" y="440" key="SettingsEditor" timestamp="1599147394618">
+    <state x="98" y="437" key="SettingsEditor" timestamp="1599444870163">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="97" y="440" key="SettingsEditor/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599147394618" />
-    <state x="64" y="328" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1598884954152" />
+    <state x="98" y="437" key="SettingsEditor/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599444870163" />
+    <state x="64" y="328" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599156423033" />
     <state x="-1039" y="126" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196177512" />
     <state x="98" y="437" key="SettingsEditor/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1598964727142" />
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1599091680784">
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2" timestamp="1599150496669">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599091680784" />
+    <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599150496669" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-1080.-478.1080.1880/0.0.2560.1400/-2160.-478.1080.1920@0.0.2560.1400" timestamp="1599078368601" />
     <state x="313" y="505" key="Vcs.Push.Dialog.v2/-2160.-478.1080.1880/-1080.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1598490361192" />
     <state x="-948" y="214" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.-478.1080.1920/-2160.-478.1080.1920@-1080.-478.1080.1920" timestamp="1598196487137" />
@@ -384,5 +418,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599148604694" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jasonhavill_com$updateContent__1_.coverage" NAME="updateContent (1) Coverage Results" MODIFIED="1606757615892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1612843006262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jasonhavill_com$plaground.coverage" NAME="plaground Coverage Results" MODIFIED="1612842987961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

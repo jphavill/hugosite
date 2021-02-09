@@ -260,13 +260,10 @@ You can also iterate over the value in nested tuples, though they must all have 
 nested_tuples = (("tuple1", 1), ("tuple2", 2))
 
 for name, number in nested_tuples:
-  print(name)
-  print(number)
+  print(name, number)
 
-OUTPUT: tuple1
-1
-tuple2
-2
+OUTPUT: tuple1 1
+tuple2 2
 ```
 
 ### Enumerate:

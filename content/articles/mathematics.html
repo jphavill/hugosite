@@ -1,16 +1,17 @@
 ---
-title: "Computing Math in Python"
-date: 2020-09-02T12:33:06-03:00
+title: "Integer Math in Python"
+date: 2021-02-08T23:56:40-04:00
 draft: false
+tags: []
 ---
 
 <section>
 <h2></h2>
-<p>A core part of any programming language is it's ability to compute mathematical problems, from processing data sets to calculating what pixels to display on a screen. Just as in traditional mathematics, these problems can be broken down and expressed as samller operations. These include simple operations, such as addition and multiplication, and a few of the more exotic functions like sin and cosine. </p><hr>
+<p>A core part of any programming language is it's ability to compute mathematical problems, from processing data sets to calculating what pixels to display on a screen. Just as in traditional mathematics, these problems can be broken down and expressed as smaller operations. These include simple operations, such as addition and multiplication, and a few of the more exotic functions like sin and cosine. </p><hr>
 </section>
 <section>
-<h2>Basic arithmatic operations</h2>
-<p>1. addition <code><span class='number'>1</span> <span class='symbol'>+</span> <span class='number'>2</span></code></p><p>2. subtraction <code><span class='number'>2</span> <span class='symbol'>-</span> <span class='number'>1</span></code></p><p>3. mulitplication <code><span class='number'>2</span> <span class='symbol'>*</span> <span class='number'>3</span></code></p><p>4. divison <code><span class='number'>4</span> <span class='symbol'>/</span> <span class='number'>2</span></code></p><p>In python these evalutate to their answers in place. For example, assigning a variable to the value <code><span class='number'>3</span> <span class='symbol'>*</span> <span class='number'>2</span></code> would give it the value of 6.</p><div class="code">
+<h2>arithmetic operations</h2>
+<p>1. addition <code><span class='number'>1</span> <span class='symbol'>+</span> <span class='number'>2</span></code></p><p>2. subtraction <code><span class='number'>2</span> <span class='symbol'>-</span> <span class='number'>1</span></code></p><p>3. multiplication <code><span class='number'>2</span> <span class='symbol'>*</span> <span class='number'>3</span></code></p><p>4. division <code><span class='number'>4</span> <span class='symbol'>/</span><span class='symbol'>/</span> <span class='number'>2</span></code></p><p>5. modulo <code><span class='number'>16</span> <span class='symbol'>%</span> <span class='number'>3</span></code></p><p>In python these evaluate to their answers in place. For example, assigning a variable to the value <code><span class='number'>3</span> <span class='symbol'>*</span> <span class='number'>2</span></code> would give it the value of 6.</p><div class="code">
 <div><code>myNumber = <span class='number'>3</span> <span class='symbol'>*</span> <span class='number'>2</span>
 
 <span class='nativeFunc'>print</span>(myNumber)
@@ -24,13 +25,51 @@ draft: false
 </section>
 <section>
 <h2>The Why</h2>
-<hr>
+<p>From calculating the position of an enemy in a video game, to determining how wide the window of an application should be, to simply coding a calculator, almost all programs will use math in one way or a another.</p><hr>
 </section>
 <section>
 <h2>Practical Uses</h2>
+<p>One of the most common uses for math in a program is to count how many times something has happened using basic addition. </p><div class="code">
+<div><code>count = <span class='number'>0</span>
+<span class='keyword'>while</span> count &lt; <span class='number'>3</span><span class='keyword'>:</span>
+    count = count <span class='symbol'>+</span> <span class='number'>1</span>
+    <span class='nativeFunc'>print</span>(<span class='string'>"this loop has run"</span><span class='keyword'>,</span> count<span class='keyword'>,</span> <span class='string'>"times so far."</span>)
+
+</code>
+</div></div>
+<hr>
+</section>
+<section>
+<h2>Practice Problem</h2>
+<p>Your problem is to take a variable starting at 1, and change it to each of the following numbers 1, 66, 42, 49, 7 and 0 in that order, using each arithmetic operator at most one time. An example of the correct output would be</p><div class="code">
+<div><code</code>
+</div></div>
+<div class="output">
+<code>OUTPUT: 1
+	66
+	42
+	49
+	7
+	0
+</code>
+</div>
+<p>This is a sample solution, you can reveal it with the button below.</p><div class="code">
+<div class="practiceProblem"><code>number = <span class='number'>1</span>
+<span class='nativeFunc'>print</span>(number)
+number = number <span class='symbol'>*</span> <span class='number'>66</span>
+<span class='nativeFunc'>print</span>(number)
+number = number <span class='symbol'>-</span> <span class='number'>24</span>
+<span class='nativeFunc'>print</span>(number)
+number = number <span class='symbol'>+</span> <span class='number'>7</span>
+<span class='nativeFunc'>print</span>(number)
+number = number <span class='symbol'>/</span><span class='symbol'>/</span> <span class='number'>7</span>
+<span class='nativeFunc'>print</span>(number)
+number = number <span class='symbol'>%</span> <span class='number'>7</span>
+<span class='nativeFunc'>print</span>(number)</code>
+</div></div>
 <hr>
 </section>
 <section>
 <h2>Extras</h2>
-<hr>
-<h3>extra1</h3></section>
+<h3>Inline Operators</h3><p>If you want to change the value of a variable, there is a shortcut syntax for writing mathematical operators. Instead of writing <code>num = num <span class='symbol'>+</span> <span class='number'>1</span></code> you can instead write <code>num <span class='symbol'>+</span>= <span class='number'>1</span></code>. This can be done for any of the arithmetic operators listed above.</p></section>
+<script src="/js/solution.js"></script>

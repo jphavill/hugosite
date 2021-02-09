@@ -1,6 +1,4 @@
-.wordcode {
-  font-family: "Lucida Console", monospace;
-}
+
 
 main hr{
   margin-top: 100px;
@@ -14,6 +12,11 @@ code {
   font-family: "Lucida Console", monospace;
   white-space: pre;
 }
+
+.wordcode {
+  font-family: "Lucida Console", monospace;
+}
+
 .code {
   margin: 40px 0;
   padding: 20px 0 20px 20px;
@@ -22,18 +25,6 @@ code {
   overflow: auto;
   height: 100%;
 }
-
-.hiddencode {
-  opacity:0;
-}
-
-.output{
-  margin: 40px 0;
-  padding: 20px 0 20px 20px;
-  border: 1px dashed #888888;
-  border-left: 8px solid darkolivegreen;
-}
-
   .keyword {
     color: coral;
   }
@@ -58,11 +49,23 @@ code {
     color: grey;
   }
 
-.string > span {
-  color: inherit;
+  .string > span {
+    color: inherit;
+  }
+
+  .lineComment > span {
+    color: inherit;
+  }
+
+.hiddencode {
+  opacity:0;
 }
 
-.lineComment > span {
-  color: inherit;
+
+.output{
+  margin: 40px 0;
+  padding: 20px 0 20px 20px;
+  border: 1px dashed #888888;
+  border-left: 8px solid darkolivegreen;
 }
 

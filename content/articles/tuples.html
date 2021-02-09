@@ -1,7 +1,8 @@
 ---
 title: "Storing Data in Tuples"
-date: 2020-09-03T11:03:12-03:00
+date: 2020-11-30T13:31:04-04:00
 draft: false
+tags: []
 ---
 
 <section>
@@ -252,15 +253,12 @@ new_tuple = nested_tuples[<span class='number'>0</span>])
 <div><code>nested_tuples = ((<span class='string'>"tuple<span class='number'>1</span>"</span><span class='keyword'>,</span> <span class='number'>1</span>)<span class='keyword'>,</span> (<span class='string'>"tuple<span class='number'>2</span>"</span><span class='keyword'>,</span> <span class='number'>2</span>))
 
 <span class='keyword'>for</span> name<span class='keyword'>,</span> number <span class='keyword'>in</span> nested_tuples<span class='keyword'>:</span>
-  <span class='nativeFunc'>print</span>(name)
-  <span class='nativeFunc'>print</span>(number)
+  <span class='nativeFunc'>print</span>(name<span class='keyword'>,</span> number)
 </code>
 </div></div>
 <div class="output">
-<code>OUTPUT: tuple1
-	1
-	tuple2
-	2
+<code>OUTPUT: tuple1 1
+	tuple2 2
 </code>
 </div>
 <h3>Enumerate:</h3><p>The <code><span class='nativeFunc'>enumerate</span>()</code> function is useful when you need to iterate through both the items of a tuple and their position within the tuple. The function adds the index of each item to a tuple with each item, making a tuple of tuples and allowing you to iterate through with a counter variable and a variable assigned to the original items.</p><p>Bonus: the <code><span class='nativeFunc'>tuple</span>()</code> function returns a tuple of the value passed to it, such as <code><span class='nativeFunc'>range</span>()</code>, value separated by commas, or the <code><span class='nativeFunc'>enumerate</span>()</code> function.</p><div class="code">
