@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/if-else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/articles/print.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/print.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/strings.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/strings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/headerfooter.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +254,7 @@
       <workItem from="1612976871373" duration="769000" />
       <workItem from="1613005289276" duration="7000" />
       <workItem from="1617327781157" duration="4189000" />
-      <workItem from="1617383202506" duration="245000" />
+      <workItem from="1617383202506" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="updated integer math article with practie problem and extra">
       <created>1612843135640</created>
@@ -271,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617331554093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed width of main content in vertical mode">
+      <created>1617383494829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617383494829</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed width of main content in vertical mode">
+      <created>1617383621474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617383621474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +305,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="messing around with all articles list centering" />
     <MESSAGE value="adding print content" />
     <MESSAGE value="fixing highlighting of keywords to not occur within larger words" />
     <MESSAGE value="making print not a draft" />
@@ -317,7 +329,8 @@
     <MESSAGE value="updated print.html" />
     <MESSAGE value="updated integer math article with practie problem and extra" />
     <MESSAGE value="added orange underline to home page, added responsive design to nav bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="added orange underline to home page, added responsive design to nav bar" />
+    <MESSAGE value="changed width of main content in vertical mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed width of main content in vertical mode" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="249" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598964790079">
