@@ -9,6 +9,8 @@ main {
   margin: 5vh auto 0 auto;
 }
 
+
+
 h1 {
   text-align: center;
   margin-bottom: 60px;
@@ -182,15 +184,18 @@ grid-template-areas: "about articles search";
     margin: 0 auto 0 auto;
   }
   .mainnav {
-  grid-area: mainnav;
-  display: grid;
-    align-items: center;
-    justify-items: center;
-  grid-template-columns: 1fr;
-  grid-template-areas: "about"
-  "articles"
-  "search";
-}
+    grid-area: mainnav;
+    display: grid;
+      align-items: center;
+      justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas: "about"
+    "articles"
+    "search";
+  }
+  main {
+    width: 100%;
+  }
 }
 /*@media screen and (max-width: 900px) and (min-width: 601px) {*/
 /*  .topnav {*/
