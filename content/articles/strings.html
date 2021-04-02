@@ -1,6 +1,6 @@
 ---
 title: "Working with Strings in Python"
-date: 2021-02-08T23:56:47-04:00
+date: 2021-02-10T13:09:19-04:00
 draft: false
 tags: ["BeginPy"]
 ---
@@ -44,18 +44,23 @@ myOtherString = 'This is also a string<span class='keyword'>,</span> instead den
 	B
 </code>
 </div>
-<h3>Slices</h3><p>Sections of a string can also be accessed. This is done using a format called slicing. The start and end index of the section you want to "slice" out of the string is seperated by a colon and placed in sqaure brackets after the string or variable.</p><p>hugo </p><hr>
+<h3>Slices</h3><p>Sections of a string can also be accessed. This is done using a format called slicing. The start and end index of the section you want to "slice" out of the string is separated by a colon and placed in square brackets after the string or variable.</p><div class="code">
+<div><code>scene = <span class='string'>"<span class='number'>01</span>opening"</span>
+scene_number = scene[<span class='number'>0</span>:<span class='number'>2</span>]
+<span class='nativeFunc'>print</span>(scene_number)
+</code>
+</div></div>
+<div class="output">
+<code>OUTPUT: 01
+</code>
+</div>
+<p>Just like tuples and lists, the character at the position of the first number is included, while the character at the position of the second number is not.</p><hr>
 </section>
 <section>
 <h2>The Why</h2>
-<hr>
+<p>Strings are used to store any type of data that isn't numerical in nature. Without strings text based data would have to be stored using ascii codes, or some other numerical conversion of characters which drastically reduces the readability to human coders.</p><hr>
 </section>
 <section>
 <h2>Practical Uses</h2>
-<hr>
-</section>
-<section>
-<h2>Extras</h2>
-<hr>
-<h3>extra1</h3></section>
+<p>Strings can be used to store filenames, usernames, passwords.</p><hr>
 <script src="/js/solution.js"></script>

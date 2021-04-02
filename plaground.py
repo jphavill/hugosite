@@ -45,15 +45,6 @@ def insertion_sort(array):
 
 
 
-number = 1
-print(number)
-number = number * 66
-print(number)
-number = number - 24
-print(number)
-number = number + 7
-print(number)
-number = number // 7
-print(number)
-number = number % 7
-print(number)
+scene = "01opening"
+scene_number = scene[0:2]
+print(scene_number)

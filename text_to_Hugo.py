@@ -15,6 +15,7 @@ import re
 #used to keep track of whether or not the upcoming code is a practice problem.
 # Done by matching a line in a paragraph, then the next code block is treated as the pradtice problem
 # todo add option for practice outputs as well, if an output directly follows a practice problem also hide it button says check your answer
+# todo add option for just output, without the preceding red code block
 practiceProblem = False
 # tracks if a hidden code button is anywhere in the file, if yes add the javascript for it.
 # todo add a tag instead of directly adding the javascript, then use partials for all css and javscript links
@@ -170,22 +171,6 @@ def add_colour(line):
 
 def create_span(word, classtype):
     return f'<span class="{classtype}">{word}</span>'
-
-
-# def create_footer():
-#   footer = '<header>\n' \
-#            '<nav class="topnav">\n' \
-#            '<a href="index.html" id="homepage">JASON HAVILL</a>\n' \
-#            '<div class="mainnav">\n'
-#   for link in social_links:
-#     website = re.search(r'https://(.*?).com', link).group(1)
-#     print(website)
-#     footer += f'<a href="index.html" id="{link}">{link.upper()}</a>\n'
-#   footer += '</div>\n' \
-#             '<hr>\n' \
-#             '</nav>\n' \
-#             '</header>\n'
-#   return footer
 
 def convert(file):
     with open(f"{file}", "r") as f:

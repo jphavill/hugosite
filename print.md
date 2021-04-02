@@ -17,7 +17,7 @@ var = ["entry in a list", "entry two"]
 print(var)
 
 OUTPUT: 7, a
-OUTPUT: ["entry in a list", "entry two"]
+["entry in a list", "entry two"]
 ```
 If no argument is passed, the print function will default to creating a newline. This means that it moves the output to the next line.
 ```py
@@ -26,8 +26,8 @@ print()
 print("part two")
 
 OUTPUT: part one
-OUTPUT:
-OUTPUT: part two
+
+part two
 ```
 
 ## Communication and Debugging

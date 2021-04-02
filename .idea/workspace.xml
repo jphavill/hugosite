@@ -22,31 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="updated print.html">
-      <change afterPath="$PROJECT_DIR$/bubblesort.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/articles/bubblesort.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/articles/git.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plaground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/testim.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jasonhavill.com.iml" afterDir="false" />
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog_template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/if-else.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/if-else.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/mathematics.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/mathematics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/print.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/print.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/articles/strings.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/strings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/tuples.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/tuples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/draft_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_search_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_search_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/articles/articles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mathematics.md" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/articles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bestarticles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bestarticles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plaground.py" beforeDir="false" afterPath="$PROJECT_DIR$/plaground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print.md" beforeDir="false" afterPath="$PROJECT_DIR$/print.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/headerfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/headerfooter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings.md" beforeDir="false" afterPath="$PROJECT_DIR$/strings.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_to_Hugo.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_to_Hugo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuples.md" beforeDir="false" afterPath="$PROJECT_DIR$/tuples.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,19 +87,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com" />
+      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\markdownArticles" />
+      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\layouts\articles" />
+      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\static\js" />
+      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\static\js\lazy" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\static" />
       <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\content\articleslist" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\content" />
       <recent name="C:\Hugo\Sites\jasonhavill.com\layouts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\layouts\articles" />
-      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\static\js" />
-      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com\static\js\lazy" />
-      <recent name="C:\Users\jphav\Dropbox\Hugo\Sites\jasonhavill.com" />
-      <recent name="C:\Hugo\Sites\jasonhavill.com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,28 +129,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draft_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fstringstest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jasonhavill.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fstringstest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,6 +181,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="text_to_Hugo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jasonhavill.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_to_Hugo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="updateContent (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jasonhavill.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,8 +230,8 @@
         <item itemvalue="Python.draft_server" />
         <item itemvalue="Python.plaground" />
         <item itemvalue="Python.updateContent (1)" />
+        <item itemvalue="Python.text_to_Hugo" />
         <item itemvalue="Python.publish" />
-        <item itemvalue="Python.fstringstest" />
       </list>
     </recent_temporary>
   </component>
@@ -270,8 +259,20 @@
       <workItem from="1608782231962" duration="7000" />
       <workItem from="1608849575303" duration="599000" />
       <workItem from="1609044677935" duration="91000" />
-      <workItem from="1612840412111" duration="2578000" />
+      <workItem from="1612840412111" duration="3409000" />
+      <workItem from="1612885340724" duration="4284000" />
+      <workItem from="1612976871373" duration="769000" />
+      <workItem from="1613005289276" duration="7000" />
+      <workItem from="1617327781157" duration="3644000" />
     </task>
+    <task id="LOCAL-00001" summary="updated integer math article with practie problem and extra">
+      <created>1612843135640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612843135640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +293,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="removing extra article.html" />
     <MESSAGE value="adding s trings" />
     <MESSAGE value="messing around with all articles list centering" />
     <MESSAGE value="adding print content" />
@@ -317,7 +317,8 @@
     <MESSAGE value="hidden code now is revealed with a buttons" />
     <MESSAGE value="testing solution.js" />
     <MESSAGE value="updated print.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated print.html" />
+    <MESSAGE value="updated integer math article with practie problem and extra" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated integer math article with practie problem and extra" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="249" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598964790079">
@@ -420,8 +421,6 @@
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1080.-478.1080.1880/-2160.-478.1080.1920/0.0.2560.1400@0.0.2560.1400" timestamp="1599148604694" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jasonhavill_com$updateContent__1_.coverage" NAME="updateContent (1) Coverage Results" MODIFIED="1606757615892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1612843006262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/jasonhavill_com$plaground.coverage" NAME="plaground Coverage Results" MODIFIED="1612842987961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1617329839318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

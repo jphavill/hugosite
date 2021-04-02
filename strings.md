@@ -45,17 +45,26 @@ B
 
 ### Slices
 
-Sections of a string can also be accessed. This is done using a format called slicing. The start and end index of the section you want to "slice" out of the string is seperated by a colon and placed in sqaure brackets after the string or variable.
-hugo 
+Sections of a string can also be accessed. This is done using a format called slicing. The start and end index of the section you want to "slice" out of the string is separated by a colon and placed in square brackets after the string or variable.
+
+```py
+scene = "01opening"
+scene_number = scene[0:2]
+print(scene_number)
+
+OUTPUT: 01
+```
+
+Just like tuples and lists, the character at the position of the first number is included, while the character at the position of the second number is not.
 
 ---
 
 ## The Why
-
+Strings are used to store any type of data that isn't numerical in nature. Without strings text based data would have to be stored using ascii codes, or some other numerical conversion of characters which drastically reduces the readability to human coders.
 ---
 
 ## Practical Uses
-
+Strings can be used to store filenames, usernames, passwords.
 ---
 
 ## Extras
@@ -63,3 +72,4 @@ hugo
 ---
 
 ### extra1
+

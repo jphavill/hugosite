@@ -18,7 +18,7 @@
 <body>
 <header>
     <nav class="topnav">
-        <a href="/" id="homepage"><span>JASON HAVILL</span></a>
+        <a href="/" id="homepage"><span {{ if eq .Title "" }}class='current'{{ end }}>JASON HAVILL</span></a>
         <div class="mainnav">
             <a href="/about" id="about"><span {{ if eq .Title "About" }}class='current'{{ end }}>ABOUT</span></a>
             <a href="/articles" id="articles"><span {{ if or (eq .Title "articles") (eq .Section "articles" ) }}class='current'{{ end }}>ARTICLES</span></a>
