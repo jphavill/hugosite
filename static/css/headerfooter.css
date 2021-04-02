@@ -239,7 +239,7 @@ grid-template-areas: "about articles search";
 
 }
 
-@media screen and (min-width: 1251px) and (max-width: 1499px) {
+@media screen and (min-width: 1251px) and (max-width: 1499px) or (orientation: landscape){
   .topnav {
     width: 80vw;
     margin: 0 auto 0 auto;
