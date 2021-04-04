@@ -14,8 +14,8 @@
     {{ $BestArticles_options := merge $main_options (dict "targetPath" "css/bestarticles.css") }}
     {{ $styleHeaderFooter := resources.Get "sass/headerfooter.scss" | toCSS $headerfooter_options -}}
     {{ $styleHomepage := resources.Get "sass/homepage.scss" | toCSS $homepage_options -}}
-    {{ $styleArticles := resources.Get "sass/Articles.scss" | toCSS $Articles_options -}}
-    {{ $styleBestArticles := resources.Get "sass/BestArticles.scss" | toCSS $BestArticles_options -}}
+    {{ $styleArticles := resources.Get "sass/articles.scss" | toCSS $Articles_options -}}
+    {{ $styleBestArticles := resources.Get "sass/bestarticles.scss" | toCSS $BestArticles_options -}}
     <link rel="stylesheet" href="{{ $styleHomepage.RelPermalink }}">
     <link rel="stylesheet" href="{{ $styleArticles.RelPermalink }}">
     <link rel="stylesheet" href="{{ $styleBestArticles.RelPermalink }}">
