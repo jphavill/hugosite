@@ -12,7 +12,6 @@ var searchPairs = {
 }
 
 var highlighted = 0
-console.log('test')
 function searchArticles(event, input) {
     var code = event.keyCode
     var maxResults = 5

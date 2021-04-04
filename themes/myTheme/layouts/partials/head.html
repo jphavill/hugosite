@@ -20,9 +20,8 @@
     <link rel="stylesheet" href="{{ $styleHomepage.RelPermalink }}">
     <link rel="stylesheet" href="{{ $styleArticles.RelPermalink }}">
     <link rel="stylesheet" href="{{ $styleBestArticles.RelPermalink }}">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="{{ "/css/main.css" | urlize | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | urlize | relURL }}">
     <link rel="stylesheet" href="{{ $styleHeaderFooter.RelPermalink }}">
-
-
+    <script src="{{ "/js/searchbar.js" | urlize | relURL }}"></script>
 </head>

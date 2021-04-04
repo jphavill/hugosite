@@ -23,18 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/articles.scss_defe7cb66ecaec9073ab915072a768ed.content" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/articles.scss_defe7cb66ecaec9073ab915072a768ed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/bestarticles.scss_723c9fc869ed35301aee54a92ad6619c.content" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/bestarticles.scss_723c9fc869ed35301aee54a92ad6619c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/headerfooter.scss_788d272278ff521ddb715acb4de51dc3.content" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/headerfooter.scss_788d272278ff521ddb715acb4de51dc3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/homepage.scss_f3fdd92c315a738ba5bae993f06e5b3a.content" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/homepage.scss_f3fdd92c315a738ba5bae993f06e5b3a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/strings.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/strings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/assets/sass/articles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/headerfooter.scss_788d272278ff521ddb715acb4de51dc3.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/headerfooter.scss_788d272278ff521ddb715acb4de51dc3.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/searchbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/headerfooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/assets/sass/headerfooter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/include_media/_include_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/assets/sass/include_media/_include_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/myTheme/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -262,7 +256,7 @@
       <workItem from="1617505654096" duration="134000" />
       <workItem from="1617506004624" duration="4712000" />
       <workItem from="1617547212940" duration="6370000" />
-      <workItem from="1617561439116" duration="6341000" />
+      <workItem from="1617561439116" duration="8158000" />
     </task>
     <task id="LOCAL-00001" summary="updated integer math article with practie problem and extra">
       <created>1612843135640</created>
@@ -334,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617567106043</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="switched to non dart transpiler">
+      <created>1617569064307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617569064307</updated>
+    </task>
+    <task id="LOCAL-00012" summary="viewport">
+      <created>1617569221762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617569221762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,8 +362,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added functional search bar with hardcoded database" />
-    <MESSAGE value="formatting search result" />
     <MESSAGE value="search result limited to 5" />
     <MESSAGE value="testing math page" />
     <MESSAGE value="testing math page html content" />
@@ -379,9 +385,11 @@
     <MESSAGE value="responsive design with scss" />
     <MESSAGE value="netlfiy hugo version" />
     <MESSAGE value="fixed capitilization" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed capitilization" />
+    <MESSAGE value="switched to non dart transpiler" />
+    <MESSAGE value="viewport" />
+    <option name="LAST_COMMIT_MESSAGE" value="viewport" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1617569041506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1617572159783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
