@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . -}}
+            {{ .Site.Title -}}
+        {{ end -}}
+    </title>
+    {{ $main_options := (dict "transpiler" "dartsass" "outputStyle" "compressed" "enableSourceMap" false) -}}
+    {{ if eq hugo.Environment "development" -}}
+      {{ $main_options = merge $main_options (dict "outputStyle" "nested" "enableSourceMap" true) -}}
+    {{ end -}}
+    {{ $headerfooter_options := merge $main_options (dict "targetPath" "css/headerfooter.css") }}
+    {{ $homepage_options := merge $main_options (dict "targetPath" "css/homepage.css") }}
+    {{ $Articles_options := merge $main_options (dict "targetPath" "css/articles.css") }}
+    {{ $BestArticles_options := merge $main_options (dict "targetPath" "css/bestarticles.css") }}
+    {{ $styleHeaderFooter := resources.Get "sass/headerfooter.scss" | toCSS $headerfooter_options -}}
+    {{ $styleHomepage := resources.Get "sass/homepage.scss" | toCSS $homepage_options -}}
+    {{ $styleArticles := resources.Get "sass/Articles.scss" | toCSS $Articles_options -}}
+    {{ $styleBestArticles := resources.Get "sass/BestArticles.scss" | toCSS $BestArticles_options -}}
+    <link rel="stylesheet" href="{{ $styleHomepage.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $styleArticles.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $styleBestArticles.RelPermalink }}">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="{{ $styleHeaderFooter.RelPermalink }}">
+
+
+</head>

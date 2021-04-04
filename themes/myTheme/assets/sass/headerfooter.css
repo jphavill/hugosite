@@ -233,20 +233,19 @@ grid-template-areas: "about articles search";
     margin: 0 auto 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr auto;
-  grid-template-areas: "name . mainnav"
-  "line line line";
+    grid-template-areas: "name . mainnav"
+    "line line line";
   }
-
 }
 
-@media screen and (min-width: 1251px) and (max-width: 1499px) or (orientation: landscape){
+@media screen and (min-width: 1251px) and (max-width: 1499px){
   .topnav {
     width: 80vw;
     margin: 0 auto 0 auto;
     display: grid;
-    grid-template-columns: 1fr auto auto;
-  grid-template-areas: "name . mainnav"
-  "line line line";
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "name mainnav"
+    "line line";
   }
 
 }

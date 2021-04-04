@@ -1,0 +1,196 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 140%; }
+
+main {
+  width: 66vw;
+  max-width: 1000px;
+  margin: 5vh auto 0 auto; }
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: cornflowerblue; }
+
+a:visited {
+  color: cornflowerblue; }
+
+a:hover {
+  color: black; }
+
+.topnav {
+  width: 80vw;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: "name . mainnav" "line line line";
+  border-bottom: solid; }
+
+.topnav a {
+  font-size: 120%;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black; }
+
+.topnav a:visited {
+  color: black; }
+
+.topnav a:hover {
+  text-decoration: none;
+  color: cornflowerblue; }
+
+.topnav hr {
+  grid-area: line; }
+
+#searchArea {
+  position: relative;
+  grid-area: search;
+  max-width: 40%;
+  max-height: 50%; }
+
+#searchbar {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 20%; }
+
+#searchResults {
+  position: absolute;
+  border-color: #888888;
+  border-style: solid;
+  border-width: 2px;
+  width: 60%; }
+
+#searchResults a:visited {
+  color: cornflowerblue; }
+
+#searchResults a {
+  color: cornflowerblue;
+  margin: 0; }
+
+#searchResults a:hover {
+  color: black; }
+
+#searchResults a {
+  font-size: 120%; }
+
+#searchResults ul {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  padding: 0;
+  background-color: white; }
+
+#searchResults ul li {
+  padding: 0 4px; }
+
+.current {
+  border-bottom: coral solid 4px; }
+
+.jsHidden {
+  visibility: hidden; }
+
+#searchResults .jsSearchHighlighted {
+  background: lightgray; }
+
+#searchResults .jsSearchHighlighted a {
+  color: black; }
+
+#searchResults .jsSearchHighlighted a:visited {
+  background: lightgray;
+  color: black; }
+
+.homepage {
+  grid-area: name; }
+
+#about {
+  grid-area: about; }
+
+#articles {
+  grid-area: articles; }
+
+.mainnav {
+  grid-area: mainnav;
+  display: grid;
+  grid-template-columns: fit-content(40%) fit-content(40%) fit-content(20%);
+  grid-template-areas: "about articles search"; }
+
+.mainnav > * {
+  padding: 20px 50px; }
+
+@media screen and (max-width: 1250px) {
+  .topnav {
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas: "name" "mainnav" "line"; }
+  .homepage {
+    grid-area: name; }
+  .homepage a {
+    text-align: center;
+    margin: 0 auto 0 auto; }
+  .mainnav {
+    grid-area: mainnav;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas: "about" "articles" "search"; }
+  main {
+    width: 80vw; } }
+
+/*@media screen and (max-width: 900px) and (min-width: 601px) {*/
+/*  .topnav {*/
+/*    width: 80vw;*/
+/*    margin: 0 auto 0 auto;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr;*/
+/*    grid-template-areas: "name mainnav"*/
+/*    "line line";*/
+/*  }*/
+/*  .topnav a{*/
+/*    margin-top: 0;*/
+/*  }*/
+/*  .homepage {*/
+/*      grid-area: name;*/
+/*    }*/
+/*  .homepage a {*/
+/*    text-align: center;*/
+/*    margin: 0 auto 0 auto;*/
+/*  }*/
+/*  .mainnav {*/
+/*    grid-area: mainnav;*/
+/*    display: grid;*/
+/*    align-items: center;*/
+/*    justify-items: center;*/
+/*    grid-template-columns: 2fr 1fr;*/
+/*    grid-template-areas: "about search"*/
+/*    "articles .";*/
+/*}*/
+/*}*/
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+  .topnav {
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-areas: "name . mainnav" "line line line"; } }
+
+@media screen and (min-width: 1251px) and (max-width: 1499px) {
+  .topnav {
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "name mainnav" "line line"; } }
+
+/*# sourceMappingURL=styles.css.map */

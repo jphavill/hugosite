@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Jason Havill"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 summaryLength = 30
+theme = "myTheme"

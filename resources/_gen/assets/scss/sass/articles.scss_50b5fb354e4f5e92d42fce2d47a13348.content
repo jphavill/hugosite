@@ -1,0 +1,70 @@
+main hr {
+  margin-top: 100px;
+}
+
+p {
+  text-align: left;
+}
+
+code {
+  font-family: "Lucida Console", monospace;
+  white-space: pre;
+}
+
+.wordcode {
+  font-family: "Lucida Console", monospace;
+}
+
+.code {
+  margin: 40px 0;
+  padding: 20px 0 20px 20px;
+  border: 1px dashed #888888;
+  border-left: 8px solid firebrick;
+  overflow: auto;
+  height: 100%;
+}
+
+.keyword {
+  color: coral;
+}
+
+.symbol {
+  color: blueviolet;
+}
+
+.number {
+  color: cornflowerblue;
+}
+
+.nativeFunc {
+  color: darkorchid;
+}
+
+.string {
+  color: forestgreen;
+}
+
+.lineComment {
+  color: grey;
+}
+
+.string > span {
+  color: inherit;
+}
+
+.lineComment > span {
+  color: inherit;
+}
+
+.hiddencode {
+  opacity: 0;
+}
+
+.output {
+  margin: 40px 0;
+  padding: 20px 0 20px 20px;
+  border: 1px dashed #888888;
+  border-left: 8px solid darkolivegreen;
+}
+
+/*# sourceMappingURL=articles.css.map */
