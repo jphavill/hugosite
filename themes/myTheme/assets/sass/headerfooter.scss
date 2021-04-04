@@ -1,5 +1,5 @@
-@use 'colors';
-@use 'include_media/_include_media';
+@import 'colors';
+@import 'include_media/_include_media';
 
 body {
   font-family: Helvetica, sans-serif;
@@ -10,7 +10,7 @@ main {
   width: 66vw;
   max-width: 1000px;
   margin: 5vh auto 0 auto;
-  @include include_media.media('<tablet') {
+  @include media('<tablet') {
     width: 80vw;
   }
 }
@@ -28,10 +28,10 @@ li {
 
 a {
   text-decoration: none;
-  color: colors.$link;
+  color: $link;
 
   :visited {
-    color: colors.$link;
+    color: $link;
   }
 
   :hover {
@@ -52,7 +52,7 @@ a {
     "line";
   border-bottom: solid;
 
-  @include include_media.media('>tablet'){
+  @include media('>tablet'){
     grid-template-columns: auto auto auto;
     grid-template-areas: "name . mainnav"
   "line line line";
@@ -70,7 +70,7 @@ a {
 
     :hover {
       text-decoration: none;
-      color: colors.$link;
+      color: $link;
     }
 
   }
@@ -137,7 +137,7 @@ a {
 
 }
 .current {
-  border-bottom: colors.$accent solid 4px;
+  border-bottom: $accent solid 4px;
 }
 
 .jsHidden {
@@ -148,7 +148,7 @@ a {
 
 .homepage {
   grid-area: name;
-  //@include include_media.media('<tablet'){
+  //@include media('<tablet'){
   //  grid-area: name;
   //  a {
   //    text-align: center;
@@ -175,7 +175,7 @@ a {
   grid-template-areas: "about"
     "articles"
     "search";
-  @include include_media.media('>tablet'){
+  @include media('>tablet'){
     grid-template-columns: fit-content(40%) fit-content(40%) fit-content(20%);
     grid-template-areas: "about articles search";
   }
@@ -184,7 +184,7 @@ a {
 
 .mainnav > * {
   padding: 20px 20px;
-  @include include_media.media('<desktop'){
+  @include media('<desktop'){
     padding: 20px 10px;
   }
 }

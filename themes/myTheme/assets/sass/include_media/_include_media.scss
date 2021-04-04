@@ -263,7 +263,6 @@ $im-no-media-expressions: ('screen', 'portrait', 'landscape') !default;
 ///
 @function get-expression-operator($expression) {
   @each $operator in ('>=', '>', '<=', '<', '≥', '≤') {
-    @debug $expression;
     @if str-index($expression, $operator) {
       @return $operator;
     }

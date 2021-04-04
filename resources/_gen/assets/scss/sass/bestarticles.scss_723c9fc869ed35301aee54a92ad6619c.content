@@ -1,0 +1,40 @@
+.pythonarticles {
+  margin: 100px 0 200px 0; }
+
+.pythonarticles h2 {
+  text-align: center;
+  margin: 0; }
+
+.pythonarticles h2 {
+  font-size: 100%; }
+
+#beginPyList li:first-of-type .summaryTitle {
+  margin-top: 40px;
+  margin-bottom: 0; }
+
+li {
+  text-align: left; }
+
+#contentList {
+  text-align: center; }
+
+#articlelist {
+  padding-right: 15px;
+  margin-top: 0; }
+
+#listtitle {
+  margin-bottom: auto;
+  margin-top: auto; }
+
+.summaryTitle {
+  margin-top: 80px;
+  margin-bottom: 0; }
+
+.summary {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.readmore {
+  white-space: pre; }
+
+/*# sourceMappingURL=bestarticles.css.map */

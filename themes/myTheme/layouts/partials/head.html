@@ -4,7 +4,7 @@
             {{ .Site.Title -}}
         {{ end -}}
     </title>
-    {{ $main_options := (dict "transpiler" "dartsass" "outputStyle" "compressed" "enableSourceMap" false) -}}
+    {{ $main_options := (dict "outputStyle" "compressed" "enableSourceMap" false) -}}
     {{ if eq hugo.Environment "development" -}}
       {{ $main_options = merge $main_options (dict "outputStyle" "nested" "enableSourceMap" true) -}}
     {{ end -}}
