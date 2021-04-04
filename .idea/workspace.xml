@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -251,7 +250,7 @@
       <workItem from="1617505654096" duration="134000" />
       <workItem from="1617506004624" duration="4712000" />
       <workItem from="1617547212940" duration="6370000" />
-      <workItem from="1617561439116" duration="5075000" />
+      <workItem from="1617561439116" duration="5470000" />
     </task>
     <task id="LOCAL-00001" summary="updated integer math article with practie problem and extra">
       <created>1612843135640</created>
@@ -302,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617565983694</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="netlfiy hugo version">
+      <created>1617566552675</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617566552675</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +328,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="overhauled markdown convertor and the articles page, also added about me text" />
     <MESSAGE value="making stuff not drafts" />
     <MESSAGE value="added functional search bar with hardcoded database" />
     <MESSAGE value="formatting search result" />
@@ -347,7 +352,8 @@
     <MESSAGE value="updating drafts status" />
     <MESSAGE value="set landscape mode to be not vertical mode" />
     <MESSAGE value="responsive design with scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive design with scss" />
+    <MESSAGE value="netlfiy hugo version" />
+    <option name="LAST_COMMIT_MESSAGE" value="netlfiy hugo version" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1617564837353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
