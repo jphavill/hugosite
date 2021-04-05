@@ -2,6 +2,9 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 140%; }
 
+header {
+  padding: 1rem; }
+
 main {
   width: 66vw;
   max-width: 1000px;
@@ -39,7 +42,7 @@ a {
       grid-template-areas: "name . mainnav" "line line line"; } }
   .topnav a {
     font-size: 120%;
-    margin-top: 30px;
+    margin-top: 0px;
     text-decoration: none;
     color: black; }
     .topnav a :visited {
@@ -116,10 +119,10 @@ a {
       grid-template-columns: fit-content(40%) fit-content(40%) fit-content(20%);
       grid-template-areas: "about articles search"; } }
 .mainnav > * {
-  padding: 20px 20px; }
+  padding: 10px 20px; }
   @media (max-width: 84.99em) {
     .mainnav > * {
-      padding: 20px 10px; } }
+      padding: 10px 10px; } }
 /*@media screen and (max-width: 900px) and (min-width: 601px) {*/
 /*  .topnav {*/
 /*    width: 80vw;*/
