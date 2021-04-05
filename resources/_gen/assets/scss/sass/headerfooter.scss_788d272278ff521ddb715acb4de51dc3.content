@@ -6,13 +6,12 @@ header {
   padding: 1rem; }
 
 main {
-  width: 70vw;
-  max-width: 60rem;
+  width: 80vw;
   text-align: center;
   margin: 5vh auto 0 auto; }
-  @media (max-width: 53.99em) {
+  @media (min-width: 54.01em) {
     main {
-      width: 80vw; } }
+      width: 70vw; } }
 h1 {
   margin-bottom: 60px; }
 
