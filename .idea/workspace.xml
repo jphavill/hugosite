@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/headerfooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/assets/sass/headerfooter.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,6 +251,7 @@
       <workItem from="1617506004624" duration="4712000" />
       <workItem from="1617547212940" duration="6370000" />
       <workItem from="1617561439116" duration="8504000" />
+      <workItem from="1617664354610" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="updated integer math article with practie problem and extra">
       <created>1612843135640</created>
@@ -343,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617572580046</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="reduced height of header">
+      <created>1617664586763</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617664586763</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +371,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="testing math page" />
     <MESSAGE value="testing math page html content" />
     <MESSAGE value="testing renaming math file" />
     <MESSAGE value="testing renaming math file back to normal" />
@@ -388,9 +395,10 @@
     <MESSAGE value="switched to non dart transpiler" />
     <MESSAGE value="viewport" />
     <MESSAGE value="added back in searchbar javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="added back in searchbar javascript" />
+    <MESSAGE value="reduced height of header" />
+    <option name="LAST_COMMIT_MESSAGE" value="reduced height of header" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1617572159783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1617664804247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

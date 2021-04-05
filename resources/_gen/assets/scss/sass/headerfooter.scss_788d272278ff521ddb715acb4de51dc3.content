@@ -6,14 +6,14 @@ header {
   padding: 1rem; }
 
 main {
-  width: 66vw;
+  width: 60rem;
+  text-align: center;
   max-width: 1000px;
   margin: 5vh auto 0 auto; }
   @media (max-width: 53.99em) {
     main {
       width: 80vw; } }
 h1 {
-  text-align: center;
   margin-bottom: 60px; }
 
 li {
