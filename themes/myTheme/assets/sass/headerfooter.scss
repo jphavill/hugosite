@@ -11,7 +11,7 @@ header {
   padding: 1rem;
 }
 main {
-  max-width: 60rem;
+  width: 70vw;
   text-align: center;
   margin: 5vh auto 0 auto;
   @include media('<tablet') {
