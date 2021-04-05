@@ -6,6 +6,7 @@ header {
   padding: 1rem; }
 
 main {
+  width: 70vw;
   max-width: 60rem;
   text-align: center;
   margin: 5vh auto 0 auto; }
