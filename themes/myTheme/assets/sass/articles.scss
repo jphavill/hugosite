@@ -23,11 +23,12 @@ code {
 
 .code {
   margin: 40px 0;
-  padding: 20px 0 20px 20px;
+  padding: 20px 20px 20px 20px;
   border: 1px dashed #888888;
   border-left: 8px solid $code;
   overflow: auto;
   height: 100%;
+  width: fit-content;
 }
   .keyword {
     color: $keyword;
@@ -68,8 +69,9 @@ code {
 
 .output{
   margin: 40px 0;
-  padding: 20px 0 20px 20px;
+  padding: 20px 20px 20px 20px;
   border: 1px dashed #888888;
   border-left: 8px solid $output;
+  width: fit-content;
 }
 

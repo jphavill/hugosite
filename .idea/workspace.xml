@@ -22,18 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="mobile first better">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/articles/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/articles/_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/articles/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/articles.scss_defe7cb66ecaec9073ab915072a768ed.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/articles.scss_defe7cb66ecaec9073ab915072a768ed.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/bestarticles.scss_723c9fc869ed35301aee54a92ad6619c.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/bestarticles.scss_723c9fc869ed35301aee54a92ad6619c.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/headerfooter.scss_788d272278ff521ddb715acb4de51dc3.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/headerfooter.scss_788d272278ff521ddb715acb4de51dc3.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/assets/sass/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/assets/sass/articles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/bestarticles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/assets/sass/bestarticles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/myTheme/assets/sass/headerfooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/myTheme/assets/sass/headerfooter.scss" afterDir="false" />
-    </list>
+    <list default="true" id="33bddde8-a1ec-48a7-ac89-a7004870f11d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,7 +261,7 @@
       <workItem from="1617674800805" duration="5721000" />
       <workItem from="1619635967303" duration="10000" />
       <workItem from="1619971115744" duration="15000" />
-      <workItem from="1639329190960" duration="1430000" />
+      <workItem from="1639329190960" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="updated integer math article with practie problem and extra">
       <created>1612843135640</created>
@@ -421,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617665413799</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix center aligned text in code blocks&#10;change beginner articles to be green">
+      <created>1639330800151</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1639330800151</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +437,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="testing renaming math file" />
     <MESSAGE value="testing renaming math file back to normal" />
     <MESSAGE value="math file now mathematics for some reason math is bugged" />
     <MESSAGE value="added tuples and if-else markdown files" />
@@ -466,7 +461,8 @@
     <MESSAGE value="added back in searchbar javascript" />
     <MESSAGE value="reduced height of header" />
     <MESSAGE value="mobile first better" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile first better" />
+    <MESSAGE value="fix center aligned text in code blocks&#10;change beginner articles to be green" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix center aligned text in code blocks&#10;change beginner articles to be green" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jasonhavill_com$draft_server.coverage" NAME="draft_server Coverage Results" MODIFIED="1639330283062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
