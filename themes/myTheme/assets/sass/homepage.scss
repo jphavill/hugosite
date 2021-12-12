@@ -1,3 +1,4 @@
+@import 'include_media/_include_media';
 p {
   text-align: center;
 }
@@ -5,4 +6,12 @@ p {
 img {
   max-width:100%;
   height:auto;
+}
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  @include media('>tablet'){
+    max-width: 40vw;
+  }
 }

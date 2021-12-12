@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'include_media/_include_media';
 main hr{
   margin-top: 100px;
 }
@@ -29,6 +30,7 @@ code {
   overflow: auto;
   height: 100%;
   width: fit-content;
+  max-width: 100%;
 }
   .keyword {
     color: $keyword;
@@ -73,5 +75,6 @@ code {
   border: 1px dashed #888888;
   border-left: 8px solid $output;
   width: fit-content;
+  max-width: 100%;
 }
 

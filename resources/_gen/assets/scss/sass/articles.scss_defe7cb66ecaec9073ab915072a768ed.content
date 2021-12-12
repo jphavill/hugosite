@@ -22,7 +22,8 @@ code {
   border-left: 8px solid firebrick;
   overflow: auto;
   height: 100%;
-  width: fit-content; }
+  width: fit-content;
+  max-width: 100%; }
 
 .keyword {
   color: coral; }
@@ -56,6 +57,7 @@ code {
   padding: 20px 20px 20px 20px;
   border: 1px dashed #888888;
   border-left: 8px solid darkolivegreen;
-  width: fit-content; }
+  width: fit-content;
+  max-width: 100%; }
 
 /*# sourceMappingURL=articles.css.map */
