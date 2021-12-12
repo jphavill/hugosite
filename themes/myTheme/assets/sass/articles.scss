@@ -3,6 +3,10 @@ main hr{
   margin-top: 100px;
 }
 
+section {
+  text-align: left;
+}
+
 p{
   text-align: left;
 }
@@ -10,6 +14,7 @@ p{
 code {
   font-family: "Lucida Console", monospace;
   white-space: pre;
+  text-align: left;
 }
 
 .wordcode {

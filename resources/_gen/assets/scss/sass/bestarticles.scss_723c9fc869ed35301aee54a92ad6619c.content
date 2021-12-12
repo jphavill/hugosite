@@ -1,12 +1,19 @@
 .pythonarticles {
-  margin: 100px 0 200px 0; }
+  padding: 100px 25px;
+  background-color: #c1fdc1;
+  color: black; }
+
+.pythonarticles > * {
+  max-width: 70ch;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 3rem; }
 
 .pythonarticles h2 {
   text-align: center;
   margin: 0; }
-
-.pythonarticles h2 {
-  font-size: 100%; }
 
 #beginPyList li:first-of-type .summaryTitle {
   margin-top: 40px;
@@ -15,8 +22,13 @@
 li {
   text-align: left; }
 
-#contentList {
-  text-align: center; }
+#contentList > * {
+  max-width: 70ch;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 3rem; }
 
 #articlelist {
   padding-right: 15px;
